@@ -11,4 +11,3 @@ _site
 .bundle/
 vendor/
 Gemfile.lock
-Gemfile
