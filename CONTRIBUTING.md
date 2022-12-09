@@ -18,7 +18,7 @@ This website uses the [Snowlake theme](https://jekyllthemes.io/theme/snowlake-we
 
 Note that pull requests (PRs) are to be submitted to the `main` branch.
 
-We follow the ["fork and pull" Git workflow](https://github.com/susam/gitpr)
+We follow the ["fork and pull" Git workflow](https://github.com/susam/gitpr):  
 1. Create a [GitHub account](https://github.com/).  
 2. Fork the repository to your own GitHub account.
 3. Clone the project to your local machine.
