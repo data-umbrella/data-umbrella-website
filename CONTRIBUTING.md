@@ -16,7 +16,7 @@ This uses [Snowlake theme](https://jekyllthemes.io/theme/snowlake-website-jekyll
 
 # Workflow to Contribute
 
-Please note that Pull requests are to be raised on  **main branch**
+Note that pull requests (PRs) are to be submitted to the `main` branch.
 
 We follow the ["fork and pull" Git workflow](https://github.com/susam/gitpr)
 1. Create a github account in case you dont have one already.
