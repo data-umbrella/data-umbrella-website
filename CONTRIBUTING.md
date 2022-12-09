@@ -19,7 +19,7 @@ This uses [Snowlake theme](https://jekyllthemes.io/theme/snowlake-website-jekyll
 Note that pull requests (PRs) are to be submitted to the `main` branch.
 
 We follow the ["fork and pull" Git workflow](https://github.com/susam/gitpr)
-1. Create a github account in case you dont have one already.
+1. Create a [GitHub account](https://github.com/).  
 2. Fork the repository to your own Github account.
 3. Clone the project to your machine.
 4. Setup an upstream remote using `git remote add upstream git@github.com:data-umbrella/data-umbrella-website.git`.
