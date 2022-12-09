@@ -12,7 +12,7 @@ To run the theme locally:
 
 
 ### Theme Documentation
-This uses [Snowlake theme](https://jekyllthemes.io/theme/snowlake-website-jekyll-theme). For more information on configuration/customization, please navigate to [Documentation](https://github.com/data-umbrella/data-umbrella-website/tree/main/Documentation).
+This website uses the [Snowlake theme](https://jekyllthemes.io/theme/snowlake-website-jekyll-theme). For more information on configuration/customization, navigate to [Documentation](https://github.com/data-umbrella/data-umbrella-website/tree/main/Documentation).
 
 # Workflow to Contribute
 
