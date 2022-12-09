@@ -24,7 +24,7 @@ We follow the ["fork and pull" Git workflow](https://github.com/susam/gitpr)
 3. Clone the project to your local machine.
 4. Setup an upstream remote using `git remote add upstream git@github.com:data-umbrella/data-umbrella-website.git`.
 5. Checkout the **main** branch using `git checkout main`.
-6. Create a branch (off of the main branch) locally with a concise name.
+6. Create a branch (off of the main branch) locally with a concise name. Example:  `git checkout -b branch_name`
 7. Commit changes to the local branch that you just created in the previous step.
 8. Push the changes to your fork.
 9. Open a PR in our [repository](https://github.com/data-umbrella/data-umbrella-website) to the **main** branch.
