@@ -21,7 +21,7 @@ Note that pull requests (PRs) are to be submitted to the `main` branch.
 We follow the ["fork and pull" Git workflow](https://github.com/susam/gitpr)
 1. Create a [GitHub account](https://github.com/).  
 2. Fork the repository to your own GitHub account.
-3. Clone the project to your machine.
+3. Clone the project to your local machine.
 4. Setup an upstream remote using `git remote add upstream git@github.com:data-umbrella/data-umbrella-website.git`.
 5. Checkout the **main** branch using `git checkout main`.
 6. Create a branch (off of the main branch) locally with a concise name.
