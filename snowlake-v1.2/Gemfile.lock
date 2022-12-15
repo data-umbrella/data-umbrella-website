@@ -86,7 +86,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  universal-darwin-21
+  ruby
 
 DEPENDENCIES
   eventmachine (= 1.2.7)!
