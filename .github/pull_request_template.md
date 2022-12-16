@@ -3,6 +3,8 @@ Thanks for contributing a pull request! Please ensure you have taken a look at
 the contribution guidelines: https://github.com/data-umbrella/data-umbrella-website/blob/main/CONTRIBUTING.md
 -->
 
+## PR Overview
+
 #### Type of contribution
 - [ ] Code
 - [ ] Documentation
@@ -12,11 +14,11 @@ the contribution guidelines: https://github.com/data-umbrella/data-umbrella-webs
 - [ ] Fixes #xxx. See also #xxx   [this will close the referenced issue or PR]
 - [ ] Resolves #xxx, #xxx [for multiple issues, this will close them]
 
-#### Description: What does this implement/fix? Explain your changes.
+## Description: What does this implement/fix? Explain your changes.
+[ add a description here ]
 
 
-
-#### Checklist
+#### Reminders
 
 - [ ] Did you review the [CONTRIBUTING GUIDE](https://github.com/data-umbrella/data-umbrella-website/blob/main/CONTRIBUTING.md)?
 - [ ] Did you reference an issue or another pull request?
