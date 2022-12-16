@@ -1,4 +1,4 @@
-# data-umbrella-website
+# Data-Umbrella-Website
 
 Website built using [Jekyll](https://jekyllrb.com/docs/) with the theme [Snowlake](https://jekyllthemes.io/theme/snowlake-website-jekyll-theme).
 ## Setting up the system
