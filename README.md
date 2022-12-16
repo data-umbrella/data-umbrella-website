@@ -1,6 +1,6 @@
 # data-umbrella-website
 
-Website built using [Jeykill](https://jekyllrb.com/docs/) with the theme [Snowlake](https://jekyllthemes.io/theme/snowlake-website-jekyll-theme).
+Website built using [Jekyll](https://jekyllrb.com/docs/) with the theme [Snowlake](https://jekyllthemes.io/theme/snowlake-website-jekyll-theme).
 ## Setting up the system
 
 To deploy in your local system:
