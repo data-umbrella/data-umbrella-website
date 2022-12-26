@@ -32,3 +32,5 @@ fields:
 - type: boolean
   name: trending
   label: trending
+pages:
+- snowlake-v1.2/_posts/test.md
