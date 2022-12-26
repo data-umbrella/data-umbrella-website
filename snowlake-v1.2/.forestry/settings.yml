@@ -29,10 +29,10 @@ file_template: ":filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
-  preview_output_directory: _site
+  preview_output_directory: snowlake-v1.2/_site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
-  working_dir: "/srv"
+  working_dir: "/srv/snowlake-v1.2"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     -d _site
