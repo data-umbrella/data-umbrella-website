@@ -1,7 +1,6 @@
 members:
   - name: "Reshama Shaikh"
     designation: "Director"
-    description: "TBD"
     image: "/assets/images/team/reshama-profile.jpg"
     social_icons:
       - icon: "jam jam-twitter"
@@ -9,7 +8,6 @@ members:
 
   - name: "Cristina Mulas Lopez"
     designation: "Data Science Community Manager"
-    description: "TBD"
     image: "/assets/images/team/christina-profile.jpg"
     social_icons:
       - icon: "jam jam-twitter"
@@ -17,21 +15,18 @@ members:
 
   - name: "Beryl Kanali"
     designation: "Data Science Community Manager"
-    description: "TBD"
-    image: "/assets/images/team/beryl-profile.jpg"
+    image: "/assets/images/team/beryl-profile.JPG"
     social_icons:
       - icon: "jam jam-twitter"
         url: "https://twitter.com/BerylKanali"
 
   - name: "Sandy Weng"
     designation: "Data Science Community Manager"
-    description: "TBD"
     image: "/assets/images/team/sandy-profile.jpg"
 
 
   - name: "Sandra Meneses"
     designation: "Data Science Community Manager"
-    description: "TBD"
     image: "/assets/images/team/sandra-profile.jpg"
     social_icons:
       - icon: "fa-brands fa-github"
