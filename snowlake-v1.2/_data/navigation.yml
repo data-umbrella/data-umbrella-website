@@ -11,7 +11,8 @@ main_menu:
     submenu:
       - text: "About us"
         url: "/about"
-
+      - text: "Team"
+        url: "/team"
 
   - text: "Projects"
     url: "/projects/"
