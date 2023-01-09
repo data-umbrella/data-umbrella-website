@@ -12,7 +12,7 @@ main_menu:
       - text: "About us"
         url: "/about"
       - text: "Team"
-        url: "/team_members"
+        url: "/test_team"
 
   - text: "Projects"
     url: "/projects/"
