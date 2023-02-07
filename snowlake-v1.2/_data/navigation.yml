@@ -14,6 +14,12 @@ main_menu:
       - text: "Team"
         url: "/team"
 
+  - text: "Sprints"
+    url: "/sprints/"
+    submenu:
+      - text: "PyMC: Jul-Aug 2022"
+        url: "https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html"
+
   - text: "Projects"
     url: "/projects/"
     submenu:
