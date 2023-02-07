@@ -6,13 +6,17 @@ main_menu:
       - text: "Home"
         url: "/"
 
-  - text: "About us"
+  - text: "About"
     url: "/about"
     submenu:
-      - text: "About us"
+      - text: "About"
         url: "/about"
+    
       - text: "Team"
         url: "/team"
+    
+      - text: "Sponsors"
+        url: "/about/sponsors"
 
   - text: "Sprints"
     url: "/sprints/"
