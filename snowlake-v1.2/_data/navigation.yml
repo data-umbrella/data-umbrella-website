@@ -17,14 +17,14 @@ main_menu:
   - text: "Projects"
     url: "/projects/"
     submenu:
-      - text: "Project 01"
-        url: "/projects/index"
+      - text: "Job Board"
+        url: "https://jobs.dataumbrella.org/"
 
-      - text: "Project 02"
-        url: "/projects/index-2"
+      - text: "PyLadies Dashboard"
+        url: "https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html"
 
-      - text: "Project 03"
-        url: "https://blog.dataumbrella.org/"
+      - text: "DU Impact"
+        url: "https://blog.dataumbrella.org/impact.html"
 
   - text: "Resources"
     url: "/resources/"
