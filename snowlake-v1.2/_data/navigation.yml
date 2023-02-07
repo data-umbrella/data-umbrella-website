@@ -10,13 +10,13 @@ main_menu:
     url: "/about"
     submenu:
       - text: "About"
-        url: "/about"
+        url: ""
     
       - text: "Team"
         url: "/team"
     
       - text: "Sponsors"
-        url: "/about/sponsors"
+        url: "/sponsors"
 
   - text: "Sprints"
     url: "/sprints/"
