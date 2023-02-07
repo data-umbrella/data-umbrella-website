@@ -24,7 +24,7 @@ main_menu:
         url: "/projects/index-2"
 
       - text: "Project 03"
-        url: "/projects/index-3"
+        url: "https://blog.dataumbrella.org/"
 
   - text: "Resources"
     url: "/resources/"
