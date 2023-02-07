@@ -11,8 +11,10 @@ main_menu:
     submenu:
       - text: "About"
         url: "/about"
+    
       - text: "Team"
         url: "/team"
+    
       - text: "Sponsors"
         url: "/about/sponsors"
 
