@@ -7,16 +7,16 @@ main_menu:
         url: "/"
 
   - text: "About"
-    url: "/about"
+    url: "/about/"
     submenu:
       - text: "About"
-        url: "/about"
+        url: ""
     
       - text: "Team"
-        url: "/team"
+        url: "/about/team"
     
       - text: "Sponsors"
-        url: "/about/sponsors"
+        url: "about/sponsors"
 
   - text: "Sprints"
     url: "/sprints/"
