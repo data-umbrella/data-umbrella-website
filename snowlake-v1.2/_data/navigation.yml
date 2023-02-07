@@ -14,17 +14,44 @@ main_menu:
       - text: "Team"
         url: "/team"
 
+  - text: "Sprints"
+    url: "/sprints/"
+    submenu:
+      - text: "Sprint Reports"
+        url: "https://blog.dataumbrella.org/tags/#sprint-report"
+        
+      - text: "PyMC: Jul-Aug 2022"
+        url: "https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html"
+
+      - text: "PyMC: Feb 2022"
+        url: "https://pymc-data-umbrella.xyz/en/latest/2022-02_sprint/index.html"
+
+      - text: "scikit-learn AFME2: Oct 2021"
+        url: "https://afme2021rc.dataumbrella.org/"
+
+      - text: "scikit-learn LATAM: June 2021"
+        url: "https://latam2021.dataumbrella.org/"
+
+      - text: "scikit-learn AFME1: Feb 2021"
+        url: "https://afme2021.dataumbrella.org/"
+
+      - text: "scikit-learn Global: Jun 2021"
+        url: "https://afme2021.dataumbrella.org/"
+
+      - text: "Sprint Blogs"
+        url: "https://blog.dataumbrella.org/tags/#sprint-blog"      
+
   - text: "Projects"
     url: "/projects/"
     submenu:
-      - text: "Project 01"
-        url: "/projects/index"
+      - text: "Job Board"
+        url: "https://jobs.dataumbrella.org/"
 
-      - text: "Project 02"
-        url: "/projects/index-2"
+      - text: "PyLadies Dashboard"
+        url: "https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html"
 
-      - text: "Project 03"
-        url: "/projects/index-3"
+      - text: "DU Impact"
+        url: "https://blog.dataumbrella.org/impact.html"
 
   - text: "Resources"
     url: "/resources/"
