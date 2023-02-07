@@ -14,7 +14,10 @@ main_menu:
     
       - text: "Team"
         url: "/about/team"
-    
+
+      - text: "Team2"
+        url: "/about/team2" 
+ 
       - text: "Sponsors"
         url: "about/sponsors"
 
