@@ -11,8 +11,8 @@ main_menu:
     menu_type: "dropdown"
     
     submenu:
-      - text: "About"
-        url: "/about/about"
+      # - text: "About"
+      #   url: "/about"
       - text: "Team"
         url: "/about/team"
       - text: "Sponsors"
