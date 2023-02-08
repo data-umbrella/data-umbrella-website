@@ -2,9 +2,9 @@ main_menu:
 
   - text: "Home"
     url: "/"
-    submenu:
-      - text: "Home"
-        url: "/"
+    # submenu:
+    #   - text: "Home"
+    #     url: "/"
 
   - text: "About"
     url: "/about/"
