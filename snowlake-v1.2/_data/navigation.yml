@@ -1,22 +1,23 @@
 main_menu:
 
   - text: "Home"
-    url: "/"
-    submenu:
-      - text: "Home"
-        url: "/"
+    url: ""
+    # submenu:
+    #   - text: "Home"
+    #     url: "/"
 
-  - text: "About us"
-    url: "/about"
+  - text: "About"
+    url: "/about/"
     submenu:
-      - text: "About us"
-        url: "/about"
+      - text: "About"
+        url: ""
+    
       - text: "Team"
         url: "/team"
       - text: "Sponsors"
-        url: "about/sponsors"
+        url: "/about/sponsors"
       - text: "lightbox"
-        url: "about/lightbox"
+        url: "/about/lightbox"
 
   - text: "Sprints"
     url: "/sprints/"
@@ -39,7 +40,7 @@ main_menu:
       - text: "scikit-learn AFME1: Feb 2021"
         url: "https://afme2021.dataumbrella.org/"
 
-      - text: "scikit-learn Global: Jun 2021"
+      - text: "scikit-learn Global: Jun 2020"
         url: "https://afme2021.dataumbrella.org/"
 
       - text: "Sprint Blogs"
@@ -48,6 +49,12 @@ main_menu:
   - text: "Projects"
     url: "/projects/"
     submenu:
+      - text: "Event Board"
+        url:  "https://events.dataumbrella.org/"
+
+      - text: "DU-PyMC OS Sprint"
+        url: "https://pymc-data-umbrella.xyz/en/latest/index.html"
+        
       - text: "Job Board"
         url: "https://jobs.dataumbrella.org/"
 
@@ -68,27 +75,27 @@ main_menu:
             url: "/resources/index"
 
           - text: "Resource 02"
-            url: "/resources/index-2"
+            url: "/resources/resource-2"
 
           - text: "Resource 03"
-            url: "/resources/index-3"
+            url: "/resources/resource-3"
  
       - sub_menu_text: "Accessibility"
         sub_menu:
           - text: "Resource 04"
-            url: "/resources/index-4"
+            url: "/resources/resource-4"
 
           - text: "Resource 05"
-            url: "/resources/index-5"
+            url: "/resources/resource-5"
     submenu:
       - text: "Resource 06"
-        url: "/resources/index-6"
+        url: "/resources/resource-6"
 
       - text: "Resource 07"
-        url: "/resources/index-7"
+        url: "/resources/resource-7"
       
       - text: "Resource 08"
-        url: "/resources/index-8"
+        url: "/resources/resource-8"
 
   - text: "News"
     url: "/news/"
