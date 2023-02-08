@@ -77,27 +77,27 @@ main_menu:
             url: "/resources/index"
 
           - text: "Resource 02"
-            url: "/resources/index-2"
+            url: "/resources/resource-2"
 
           - text: "Resource 03"
-            url: "/resources/index-3"
+            url: "/resources/resource-3"
  
       - sub_menu_text: "Accessibility"
         sub_menu:
           - text: "Resource 04"
-            url: "/resources/index-4"
+            url: "/resources/resource-4"
 
           - text: "Resource 05"
-            url: "/resources/index-5"
+            url: "/resources/resource-5"
     submenu:
       - text: "Resource 06"
-        url: "/resources/index-6"
+        url: "/resources/resource-6"
 
       - text: "Resource 07"
-        url: "/resources/index-7"
+        url: "/resources/resource-7"
       
       - text: "Resource 08"
-        url: "/resources/index-8"
+        url: "/resources/resource-8"
 
   - text: "News"
     url: "/news/"
