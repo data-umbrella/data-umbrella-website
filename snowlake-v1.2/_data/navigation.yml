@@ -13,6 +13,8 @@ main_menu:
         url: "/about"
       - text: "Team"
         url: "/team"
+      - text: "Sponsors"
+        url: "/sponsors"
 
   - text: "Sprints"
     url: "/sprints/"
