@@ -8,15 +8,17 @@ main_menu:
 
   - text: "About"
     url: "/about/"
-    submenu:
-      - text: "About"
-        url: ""
+    menu_type: "dropdown"
     
+    submenu:
+      # - text: "About"
+      #   url: ""
       - text: "Team"
         url: "/about/team"
- 
       - text: "Sponsors"
-        url: "about/sponsors"
+        url: "/about/sponsors"
+      - text: "lightbox"
+        url: "/about/lightbox"
 
   - text: "Sprints"
     url: "/sprints/"
