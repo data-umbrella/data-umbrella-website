@@ -29,7 +29,8 @@ main_menu:
         url: "/open-source/open-source-3"
       - text: "OS page 3"
         url: "/open-source/index-3"
-
+      - text: "OS index-2"
+        url: "/open-source/index-2"
 
   - text: "Sprints"
     url: "/sprints/"
