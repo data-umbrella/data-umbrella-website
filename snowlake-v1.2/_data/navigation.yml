@@ -20,6 +20,15 @@ main_menu:
       - text: "lightbox"
         url: "/about/lightbox"
 
+  - text: "Open Source"
+    url: "/open-source/"
+    submenu:
+      - text: "OS page 1"
+        url: "/open-source/open-source-3"
+
+      - text: "OS page 2"
+        url: "/open-source/index-2"
+
   - text: "Sprints"
     url: "/sprints/"
     submenu:
