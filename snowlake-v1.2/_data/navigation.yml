@@ -8,7 +8,7 @@ main_menu:
 
   - text: "About"
     url: "/about/"
-    menu_type: "dropdown"
+    #menu_type: "dropdown"
     
     submenu:
       # - text: "About"
@@ -19,6 +19,19 @@ main_menu:
         url: "/about/sponsors"
       - text: "lightbox"
         url: "/about/lightbox"
+
+  - text: "Open Source"
+    url: "/open-source/"
+    submenu:
+      - text: "OS sprints"
+        url: "/open-source/sprintlist"
+      # - text: "OS page 1: test"
+      #   url: "/open-source/sprint-list"
+      # - text: "OS page 2"
+      #   url: "/open-source/open-source-3"
+      # - text: "OS page 3"
+      #   url: "/open-source/index-3"
+
 
   - text: "Sprints"
     url: "/sprints/"
