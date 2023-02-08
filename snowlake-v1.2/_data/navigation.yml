@@ -25,10 +25,10 @@ main_menu:
     submenu:
       - text: "OS page 1: test"
         url: "/open-source/sprint-list"
-
       - text: "OS page 2"
         url: "/open-source/open-source-3"
-
+      - text: "OS page 3"
+        url: "/open-source/index-3"
 
 
   - text: "Sprints"
