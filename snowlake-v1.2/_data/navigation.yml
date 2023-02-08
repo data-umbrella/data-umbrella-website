@@ -51,6 +51,12 @@ main_menu:
   - text: "Projects"
     url: "/projects/"
     submenu:
+      - text: "Event Board"
+        url:  "https://events.dataumbrella.org/"
+
+      - text: "DU-PyMC OS Sprint"
+        url: "https://pymc-data-umbrella.xyz/en/latest/index.html"
+        
       - text: "Job Board"
         url: "https://jobs.dataumbrella.org/"
 
