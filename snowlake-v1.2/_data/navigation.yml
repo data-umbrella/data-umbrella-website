@@ -10,8 +10,14 @@ main_menu:
     url: "/about/"
     submenu:
       - text: "About"
-        url: ""
-    
+        url: "/about/about"
+        
+      - text: "About2"
+        url: "/about/about-2"
+
+      - text: "About3"
+        url: "/about/about-3"
+
       - text: "Team"
         url: "/about/team"
  
