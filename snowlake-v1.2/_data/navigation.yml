@@ -18,7 +18,7 @@ main_menu:
       - text: "Sponsors"
         url: "/about/sponsors"
       - text: "Community Partners"
-        url: "/about/community-partners"
+        url: "/about/communitypartners"
       - text: "lightbox"
         url: "/about/lightbox"
 
