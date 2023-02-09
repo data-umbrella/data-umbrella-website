@@ -18,8 +18,6 @@ main_menu:
       - text: "Sponsors"
         url: "/about/sponsors"
       - text: "Community Partners"
-        url: "/about/communitypartners"
-      - text: "CPs"
         url: "/about/community-partners"
       - text: "lightbox"
         url: "/about/lightbox"
