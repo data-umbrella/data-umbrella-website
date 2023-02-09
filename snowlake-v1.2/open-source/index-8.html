@@ -1,93 +1,76 @@
 ---
 layout: page
-title: "Grid Portfolio with Details"
-sub_title: "Aenean lacinia bibendum nulla sed consectetur"
+title: "Data Umbrella sprints report"
+sub_title: ""
 black_menu: true
 header_style: 'one'
 
 portfolios_area:
   enable: true
   categories:
-    - title: "Branding"
-      filter: "branding"
+    - title: "PyMC"
+      filter: "PyMC"
 
-    - title: "Corporate"
-      filter: "corporate"
+    - title: "dataumbrella"
+      filter: "dataumbrella"
 
-    - title: "Application"
-      filter: "application"
+    - title: "Sprint-report"
+      filter: "Sprint-report"
 
-    - title: "Video"
-      filter: "video"
+    - title: "scikit-learn"
+      filter: "scikit-learn"
 
   portfolios:
-    - title: "Fringilla Nullam"
-      sub_title: "Corporate, Application"
-      sm_image: "/assets/images/art/s1.jpg"
-      big_image: "/assets/images/art/s1-2.jpg"
-      url: "#"
+
+    - title: "Data Umbrella PyMC 2022 Open source sprint"
+      sub_title: "Summary of the PyMC Open Source Working Sessions, Jul-Aug 2022"
+      sm_image: "https://blog.dataumbrella.org/images/2022-pymc/pymc_summary.png"
+      big_image: "https://blog.dataumbrella.org/images/2022-pymc/pymc_summary.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-pymc-2022-report"
       filters:
-        - corporate
-        - branding
-    - title: "Ridiculus Parturient"
-      sub_title: "Application"
-      sm_image: "/assets/images/art/s2.jpg"
-      big_image: "/assets/images/art/s2-2.jpg"
-      url: "#"
+        - PyMC
+        - dataumbrella
+        - Sprint-report
+
+    - title: "Data Umbrella AFME2 2021 scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Africa & Middle East Sprint, October 2021"
+      sm_image: "https://blog.dataumbrella.org/images/2021-afme2/AFME2-photo.png"
+      big_image: "https://blog.dataumbrella.org/images/2021-afme2/AFME2-photo.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report"
       filters:
-        - application
-    - title: "Nullam Mollis"
-      sub_title: "Application"
-      sm_image: "/assets/images/art/s3.jpg"
-      big_image: "/assets/images/art/s3-2.jpg"
-      url: "#"
+        - scikit-learn
+        - dataumbrella
+        - Sprint-report
+
+    - title: "Data Umbrella LATAM 2021 scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Latin America Sprint, June 2021"
+      sm_image: "https://blog.dataumbrella.org/images/2021-latam/latam-demog.png"
+      big_image: "https://blog.dataumbrella.org/images/2021-latam/latam-demog.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-latam-2021-scikit-learn-sprint-report"
       filters:
-        - video
-    - title: "Ridiculus Parturient"
-      sub_title: "Application"
-      sm_image: "/assets/images/art/s4.jpg"
-      big_image: "/assets/images/art/s4-2.jpg"
-      url: "#"
+        - scikit-learn
+        - dataumbrella
+        - Sprint-report
+
+    - title: "Data Umbrella AFME1 Feb 2021 scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Africa & Middle East, February 2021"
+      sm_image: "https://blog.dataumbrella.org/images/2021-afme1/afme-summary.png"
+      big_image: "https://blog.dataumbrella.org/images/2021-afme1/afme-summary.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-afme1-2021-scikit-learn-sprint-report"
       filters:
-        - branding
-    - title: "Ridiculus Tristique"
-      sub_title: "Application"
-      sm_image: "/assets/images/art/s5.jpg"
-      big_image: "/assets/images/art/s5-2.jpg"
-      url: "#"
+        - scikit-learn
+        - dataumbrella
+        - Sprint-report
+
+    - title: "Data Umbrella 2020 online scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Global Online Sprint, June 2020"
+      sm_image: "https://blog.dataumbrella.org/images/2020-online/online_demog.png"
+      big_image: "https://blog.dataumbrella.org/images/2020-online/online_demog.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-global-online-2020-scikit-learn-sprint-report"
       filters:
-        - application
-        - branding
-    - title: "Euismod Risus"
-      sub_title: "Application"
-      sm_image: "/assets/images/art/s6.jpg"
-      big_image: "/assets/images/art/s6-2.jpg"
-      url: "#"
-      filters:
-        - corporate
-    - title: "Sollicitudin Pharetra"
-      sub_title: "Audio, Video"
-      sm_image: "/assets/images/art/s7.jpg"
-      big_image: "/assets/images/art/s7-2.jpg"
-      url: "#"
-      filters:
-        - branding
-    - title: "Consectetur Malesuada"
-      sub_title: "Branding"
-      sm_image: "/assets/images/art/s8.jpg"
-      big_image: "/assets/images/art/s8-2.jpg"
-      url: "#"
-      filters:
-        - video
-    - title: "Ridiculus Parturient"
-      sub_title: "Application"
-      sm_image: "/assets/images/art/s9.jpg"
-      big_image: "/assets/images/art/s9-2.jpg"
-      url: "#"
-      filters:
-        - corporate
-        - branding
-    
+        - scikit-learn
+        - dataumbrella
+        - Sprint-report
 ---
 
 {% if page.portfolios_area.enable %}
@@ -114,7 +97,7 @@ portfolios_area:
                     <img src="{{portfolio.big_image}}" alt="" />
                 </div>
                 <a href="{{portfolio.sm_image}}" class="hover-icon-first lightbox" data-tip="Enlarge image"><i class="jam jam-qr-code"></i></a>
-                <a href="#" class="hover-icon-second" data-tip="See details"><i class="jam jam-link"></i></a>
+                <a href="{{portfolio.url}}" class="hover-icon-second" data-tip="See details"><i class="jam jam-link"></i></a>
               </figure>
               <div class="item-content">
                 <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
