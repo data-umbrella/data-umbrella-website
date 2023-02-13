@@ -22,10 +22,8 @@ main_menu:
         url: "/about/community-partners"
       - text: "lightbox"
         url: "/about/lightbox"
-      - text: "Code of Conduct dark"
-        url: "/about/coc_dark"
-      - text: "Code of Conduct light"
-        url: "/about/coc_light"
+      - text: "Code of Conduct"
+        url: "/about/coc"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
