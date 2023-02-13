@@ -23,7 +23,7 @@ main_menu:
   - text: "Open Source"
     url: "/open-source/"
     submenu:
-      - text: "Open source sprints"
+      - text: "Open Source Sprints"
         url: "/open-source/sprintlist"
       - text: "Sprint report"
         url: "/open-source/index-8.html"
