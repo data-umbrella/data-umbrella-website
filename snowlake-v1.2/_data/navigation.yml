@@ -58,42 +58,10 @@ main_menu:
   - text: "Open Source"
     url: "/open-source/"
     submenu:
-      - text: "OS sprints"
+      - text: "Open Source Sprints"
         url: "/open-source/sprintlist"
-      # - text: "OS page 1: test"
-      #   url: "/open-source/sprint-list"
-      # - text: "OS page 2"
-      #   url: "/open-source/open-source-3"
-      # - text: "OS page 3"
-      #   url: "/open-source/index-3"
-
-
-  - text: "Sprints"
-    url: "/sprints/"
-    submenu:
-      - text: "Sprint Reports"
-        url: "https://blog.dataumbrella.org/tags/#sprint-report"
-        
-      - text: "PyMC: Jul-Aug 2022"
-        url: "https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html"
-
-      - text: "PyMC: Feb 2022"
-        url: "https://pymc-data-umbrella.xyz/en/latest/2022-02_sprint/index.html"
-
-      - text: "scikit-learn AFME2: Oct 2021"
-        url: "https://afme2021rc.dataumbrella.org/"
-
-      - text: "scikit-learn LATAM: June 2021"
-        url: "https://latam2021.dataumbrella.org/"
-
-      - text: "scikit-learn AFME1: Feb 2021"
-        url: "https://afme2021.dataumbrella.org/"
-
-      - text: "scikit-learn Global: Jun 2020"
-        url: "https://afme2021.dataumbrella.org/"
-
-      - text: "Sprint Blogs"
-        url: "https://blog.dataumbrella.org/tags/#sprint-blog"      
+      - text: "Sprint report"
+        url: "/open-source/index-8.html"
 
   - text: "Projects"
     url: "/projects/"
