@@ -2,6 +2,7 @@ main_menu:
 
   - text: "Home"
     url: ""
+    menu_type: "button"
     # submenu:
     #   - text: "Home"
     #     url: "/"
@@ -21,6 +22,10 @@ main_menu:
         url: "/about/community-partners"
       - text: "lightbox"
         url: "/about/lightbox"
+      - text: "Code of Conduct dark"
+        url: "/about/coc_dark"
+      - text: "Code of Conduct light"
+        url: "/about/coc_light"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
