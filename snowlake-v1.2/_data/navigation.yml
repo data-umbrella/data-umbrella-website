@@ -22,7 +22,7 @@ main_menu:
         url: "/about/community-partners"
       - text: "lightbox"
         url: "/about/lightbox"
-      - text: "FAQs toggle"
+      - text: "FAQs"
         url: "/about/toggle"
       - text: "Code of Conduct"
         url: "/about/coc"
