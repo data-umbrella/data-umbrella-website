@@ -62,8 +62,8 @@ main_menu:
     submenu:
       - text: "Open Source Sprints"
         url: "/open-source/sprintlist"
-      - text: "Sprint report"
-        url: "/open-source/index-8.html"
+      - text: "Sprint Reports"
+        url: "/open-source/sprint_reports.html"
 
   - text: "Projects"
     url: "/projects/"
