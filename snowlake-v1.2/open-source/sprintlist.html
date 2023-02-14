@@ -1,0 +1,120 @@
+---
+layout: page
+title: "Data Umbrella Open Source Events"
+sub_title: "Contributing Sessions / Sprints"
+black_menu: true
+header_style: 'one'
+
+portfolios_area:
+  enable: true
+  categories:
+    - title: "PyMC"
+      filter: "pymc"
+
+    - title: "scikit-learn"
+      filter: "scikit-learn"
+
+    - title: "Data-Umbrella"
+      filter: "Data-Umbrella"
+
+    - title: "other"
+      filter: "other"
+
+  portfolios:
+    - title: "PyMC: Jul-Aug 2022"
+      sub_title: "PyMC"
+      sm_image: "/assets/images/data-umbrella/sprints/pymc_sprint_july_2022.png"
+      big_image: "/assets/images/data-umbrella/sprints/pymc_sprint_july_2022.png"
+      url: "https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html"
+      filters:
+        - pymc
+        - Data-Umbrella
+
+    - title: "PyMC: Feb 2022"
+      sub_title: "PyMC"
+      sm_image: "/assets/images/data-umbrella/sprints/pymc_sprint_feb_18_2022.png"
+      big_image: "/assets/images/data-umbrella/sprints/pymc_sprint_feb_18_2022.png"
+      url: "https://pymc-data-umbrella.xyz/en/latest/2022-02_sprint/index.html"
+      filters:
+        - pymc
+        - Data-Umbrella
+
+    - title: "scikit-learn AFME2: Oct 2021"
+      sub_title: "scikit-learn"
+      sm_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_AFME2.png"
+      big_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_AFME2.png"
+      url: "https://afme2021rc.dataumbrella.org/"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+
+    - title: "scikit-learn LATAM: June 2021"
+      sub_title: "scikit-learn"
+      sm_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_LATAM.png"
+      big_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_LATAM.png"
+      url: "https://latam2021.dataumbrella.org/"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+
+    - title: "scikit-learn AFME1: Feb 2021"
+      sub_title: "scikit-learn"
+      sm_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_AFME1.png"
+      big_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_AFME1.png"
+      url: "https://afme2021.dataumbrella.org/"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+
+    - title: "scikit-learn Global: June 2020"
+      sub_title: "scikit-learn"
+      sm_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_global.png"
+      big_image: "/assets/images/data-umbrella/sprints/du_scikitlearn_global.png"
+      url: "https://sites.google.com/view/nyc-2020-scikit-sprint/"
+      filters:
+        - scikit-learn
+        - Data-Umbrella    
+---
+
+{% if page.portfolios_area.enable %}
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="grid grid-view boxed">
+      <div class="isotope-filter text-center">
+        <ul>
+          <li><a class="button active" data-filter="*">All</a></li>
+          {% for category in page.portfolios_area.categories %}
+           <li><a class="button" data-filter=".{{category.filter}}">{{category.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+      <div class="tiles text-center light-gallery-wrapper">
+        <div class="row isotope">
+          {% for portfolio in  page.portfolios_area.portfolios %}
+          <div class="item grid-sizer col-md-6 col-lg-4 {% for filter in portfolio.filters %} {{filter}} {% endfor %}">
+            <div class="box bg-white shadow p-30">
+              <figure class="main overlay overlay2 rounded mb-30">
+                <a href="{{portfolio.big_image}}" class="lightbox"> 
+              	  <img src="{{portfolio.sm_image}}" alt="{{portfolio.title}}"/>
+                </a>
+              </figure>
+              <div class="post-content">
+                <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
+                <div class="meta mb-0">{{portfolio.sub_title}}</div>
+              </div>
+              <!-- /.post-content -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.item -->
+          {% endfor %}
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.tiles -->
+    </div>
+    <!-- /.grid -->
+  </div>
+</div>
+{% endif %}
