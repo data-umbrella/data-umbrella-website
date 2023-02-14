@@ -23,7 +23,7 @@ main_menu:
       - text: "lightbox"
         url: "/about/lightbox"
       - text: "FAQs"
-        url: "/about/toggle"
+        url: "/about/faq"
       - text: "Code of Conduct"
         url: "/about/coc"
 
