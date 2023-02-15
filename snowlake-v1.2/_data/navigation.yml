@@ -64,7 +64,12 @@ main_menu:
         url: "/open-source/sprintlist"
       - text: "Sprint Reports"
         url: "/open-source/sprint_reports.html"
-
+  - text: "Get Involved"
+    url: "/"
+    submenu:
+      - text: "Volunteer"
+        url: "/get-involved/volunteer"
+        
   - text: "Projects"
     url: "/projects/"
     submenu:
