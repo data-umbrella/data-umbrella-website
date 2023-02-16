@@ -71,9 +71,6 @@ main_menu:
       - text: "Blog 02"
         url: "/blogs/index-2"
 
-      - text: "Blog 03"
-        url: "/blogs/index-3"
-
       - text: "Press: test page"
         url: "/blogs/press"
 
