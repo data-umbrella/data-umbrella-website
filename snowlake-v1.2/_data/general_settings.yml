@@ -4,8 +4,8 @@ email: "info@dataumbrella.org"
 description: >- # this means to ignore newlines until "baseurl:"
   An inclusive community for underrepresented persons in data science.
 
-black_logo_1x: "/assets/images/du-logos/du-logo.png"
-black_logo_2x: "/assets/images/du-logos/du-logo@2x.png"
+black_logo_1x: "/assets/images/logo.png"
+black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "/assets/images/logo-light.png"
 light_logo_2x: "/assets/images/logo-light@2x.png"
 
