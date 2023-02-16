@@ -24,6 +24,8 @@ main_menu:
         url: "/about/faq"
       - text: "Code of Conduct"
         url: "/about/coc"
+      - text: "Project List"
+        url: "/about/project_list"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
