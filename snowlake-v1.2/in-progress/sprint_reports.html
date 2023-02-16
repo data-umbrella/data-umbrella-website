@@ -1,0 +1,130 @@
+---
+layout: page
+title: "Data Umbrella Sprints Reports"
+sub_title: "Summary reports of open source events"
+black_menu: true
+header_style: 'one'
+
+portfolios_area:
+  enable: true
+  categories:
+    - title: "PyMC"
+      filter: "PyMC"
+
+    - title: "Data-Umbrella"
+      filter: "Data-Umbrella"
+
+    - title: "Sprint-report"
+      filter: "Sprint-report"
+
+    - title: "scikit-learn"
+      filter: "scikit-learn"
+
+  portfolios:
+
+    - title: "Data Umbrella PyMC 2022 Open source sprint"
+      sub_title: "Summary of the PyMC Open Source Working Sessions, Jul-Aug 2022"
+      sm_image: "https://blog.dataumbrella.org/images/2022-pymc/pymc_summary.png"
+      big_image: "https://blog.dataumbrella.org/images/2022-pymc/pymc_summary.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-pymc-2022-report"
+      filters:
+        - PyMC
+        - Data-Umbrella
+        - Sprint-report
+
+    - title: "Reflections on the Data Umbrella PyMC February 2022 Sprint"
+      sub_title: "Summary of the PyMC Sprints, Jan-Feb 2022"
+      sm_image: "/assets/images/data-umbrella/sprint_reports/pymc_feb_2022_reflections.png"
+      big_image: "/assets/images/data-umbrella/sprint_reports/pymc_feb_2022_reflections.png"
+      url: "https://blog.dataumbrella.org/pymc-sprint-summary"
+      filters:
+        - PyMC
+        - Data-Umbrella
+        - Sprint-report
+
+    - title: "Data Umbrella AFME2 2021 scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Africa & Middle East Sprint, October 2021"
+      sm_image: "https://blog.dataumbrella.org/images/2021-afme2/AFME2-photo.png"
+      big_image: "https://blog.dataumbrella.org/images/2021-afme2/AFME2-photo.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+        - Sprint-report
+
+    - title: "Data Umbrella LATAM 2021 scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Latin America Sprint, June 2021"
+      sm_image: "https://blog.dataumbrella.org/images/2021-latam/latam-demog.png"
+      big_image: "https://blog.dataumbrella.org/images/2021-latam/latam-demog.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-latam-2021-scikit-learn-sprint-report"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+        - Sprint-report
+
+    - title: "Data Umbrella AFME1 Feb 2021 scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Africa & Middle East, February 2021"
+      sm_image: "https://blog.dataumbrella.org/images/2021-afme1/afme-summary.png"
+      big_image: "https://blog.dataumbrella.org/images/2021-afme1/afme-summary.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-afme1-2021-scikit-learn-sprint-report"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+        - Sprint-report
+
+    - title: "Data Umbrella 2020 online scikit-learn sprint"
+      sub_title: "Reshama Shaikh - Summary of the Global Online Sprint, June 2020"
+      sm_image: "https://blog.dataumbrella.org/images/2020-online/online_demog.png"
+      big_image: "https://blog.dataumbrella.org/images/2020-online/online_demog.png"
+      url: "https://blog.dataumbrella.org/data-umbrella-global-online-2020-scikit-learn-sprint-report"
+      filters:
+        - scikit-learn
+        - Data-Umbrella
+        - Sprint-report
+---
+
+{% if page.portfolios_area.enable %}
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="grid grid-view boxed">
+      <div class="isotope-filter text-center">
+        <ul>
+          <li><a class="button active" data-filter="*">All</a></li>
+          {% for category in page.portfolios_area.categories %}
+           <li><a class="button" data-filter=".{{category.filter}}">{{category.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+      <div class="tiles">
+        <div class="row isotope light-gallery-wrapper">
+          {% for portfolio in  page.portfolios_area.portfolios %}
+          <div class="item item-detailed grid-sizer col-md-6 col-lg-4 {% for filter in portfolio.filters %} {{filter}} {% endfor %}">
+            <div class="box bg-white shadow p-30">
+              <figure class="main rounded mb-30">
+                <div class="item-detailed-image">
+                    <img src="{{portfolio.sm_image}}" alt="" />
+                    <img src="{{portfolio.big_image}}" alt="" />
+                </div>
+                <a href="{{portfolio.sm_image}}" class="hover-icon-first lightbox" data-tip="Enlarge image"><i class="jam jam-qr-code"></i></a>
+                <a href="{{portfolio.url}}" class="hover-icon-second" data-tip="See details"><i class="jam jam-link"></i></a>
+              </figure>
+              <div class="item-content">
+                <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
+                <div class="meta mb-0">{{portfolio.sub_title}}</div>
+              </div>
+              <!-- /.post-content -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.item -->
+          {% endfor %}
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.tiles -->
+    </div>
+    <!-- /.grid -->
+  </div>
+</div>
+{% endif %}
