@@ -74,12 +74,14 @@ main_menu:
       - text: "Blog 03"
         url: "/blogs/index-3"
 
+      - text: "Press: test page"
+        url: "/blogs/press"
 
-  - text: "[In progress]"
-    url: "/in-progress/"
-    submenu:
-      - text: "Press"
-        url: "/in-progress/press"
+  # - text: "[In progress]"
+  #   url: "/in-progress/"
+  #   submenu:
+  #     - text: "Press"
+  #       url: "/in-progress/press"
 
   - text: "Projects"
     url: "/projects/"
