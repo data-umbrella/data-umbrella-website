@@ -62,8 +62,14 @@ main_menu:
         url: "/open-source/sprint_list"
       - text: "Sprint Reports"
         url: "/open-source/sprint_reports"
-      - text: "Sprint Reports"
+      - text: "Contributing to scikit-learn"
         url: "/open-source/contributing-to-scikit-learn"
+
+  - text: "[In progress]"
+    url: "/in-progress/"
+    submenu:
+      - text: "Press"
+        url: "/in-progress/press"
 
   - text: "Projects"
     url: "/projects/"
