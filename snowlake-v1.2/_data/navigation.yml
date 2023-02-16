@@ -66,6 +66,9 @@ main_menu:
   - text: "Projects"
     url: "/projects/"
     submenu:
+      - text: "Blog"
+        url:  "https://blog.dataumbrella.org/"
+
       - text: "Event Board"
         url:  "https://events.dataumbrella.org/"
 
