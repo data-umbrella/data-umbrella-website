@@ -65,6 +65,16 @@ main_menu:
       - text: "Contributing to scikit-learn"
         url: "/open-source/contributing-to-scikit-learn"
 
+  - text: "Blog"
+    url: "/"
+    submenu:
+      - text: "Blog 02"
+        url: "/blogs/index-2"
+
+      - text: "Blog 03"
+        url: "/blogs/index-3"
+
+
   - text: "[In progress]"
     url: "/in-progress/"
     submenu:
