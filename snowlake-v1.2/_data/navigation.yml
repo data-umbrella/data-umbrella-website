@@ -135,29 +135,29 @@ main_menu:
       - text: "Resource 08"
         url: "/resources/resource-8"
 
-  - text: "News"
-    url: "/news/"
-    submenu:
-      - text: "News 01"
-        url: "/news/index"
+  # - text: "News"
+  #   url: "/news/"
+  #   submenu:
+  #     - text: "News 01"
+  #       url: "/news/index"
 
-      - text: "News 02"
-        url: "/news/index-2"
+  #     - text: "News 02"
+  #       url: "/news/index-2"
 
-      - text: "News 03"
-        url: "/news/index-3"
+  #     - text: "News 03"
+  #       url: "/news/index-3"
 
-      - text: "News 04"
-        url: "/news/index-4"
+  #     - text: "News 04"
+  #       url: "/news/index-4"
 
-      - text: "News 05"
-        url: "/news/index-5"
+  #     - text: "News 05"
+  #       url: "/news/index-5"
 
-      - text: "News 06"
-        url: "/news/index-6"
+  #     - text: "News 06"
+  #       url: "/news/index-6"
 
-      - text: "News 07"
-        url: "/news/index-7"
+  #     - text: "News 07"
+  #       url: "/news/index-7"
 
-      - text: "News 08"
-        url: "/news/index-8"
+  #     - text: "News 08"
+  #       url: "/news/index-8"
