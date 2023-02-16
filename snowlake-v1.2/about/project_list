@@ -4,42 +4,8 @@ title: Snowlake - Marketing Company
 custom_css: sky
 custom_font: font4
 
-projects_area:
-  enable: true
-  title: "Our Projects"
-  sub_title: "Check out some of our awesome projects with creative ideas and great design."
-  projects:
-
-    - title: "Clipboard Office"
-      sub_title: "Application"
-      images:
-        - img: "/assets/images/art/s3.jpg"
-        - img: "/assets/images/art/s3-2.jpg"
-      url: "#"
-
-    - title: "Branding Stationery"
-      sub_title: "Video, Application"
-      images:
-        - img: "/assets/images/art/s4.jpg"
-        - img: "/assets/images/art/s4-2.jpg"
-      url: "#"
-
-    - title: "Brown Paper Card"
-      sub_title: "Branding"
-      images:
-        - img: "/assets/images/art/s5.jpg"
-        - img: "/assets/images/art/s5-2.jpg"
-      url: "#"
-
-    - title: "Shopping Paperbag"
-      sub_title: "Corporate, Branding"
-      images:
-        - img: "/assets/images/art/s6.jpg"
-        - img: "/assets/images/art/s6-2.jpg"
-      url: "#"
-
 slider_area:
-  enable: true
+  enable: false
   sliders:
     - title: "Bringing Ideas to Life Making Life Easier"
       sub_title: "We have considered our solutions to support every stage of your growth."
@@ -135,6 +101,40 @@ two_columns_area_three:
     - question: "Marketing Management"
       answer: |
         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes.
+
+projects_area:
+  enable: true
+  title: "Our Projects"
+  sub_title: "Check out some of our awesome projects with creative ideas and great design."
+  projects:
+
+    - title: "Clipboard Office"
+      sub_title: "Application"
+      images:
+        - img: "/assets/images/art/s3.jpg"
+        - img: "/assets/images/art/s3-2.jpg"
+      url: "#"
+
+    - title: "Branding Stationery"
+      sub_title: "Video, Application"
+      images:
+        - img: "/assets/images/art/s4.jpg"
+        - img: "/assets/images/art/s4-2.jpg"
+      url: "#"
+
+    - title: "Brown Paper Card"
+      sub_title: "Branding"
+      images:
+        - img: "/assets/images/art/s5.jpg"
+        - img: "/assets/images/art/s5-2.jpg"
+      url: "#"
+
+    - title: "Shopping Paperbag"
+      sub_title: "Corporate, Branding"
+      images:
+        - img: "/assets/images/art/s6.jpg"
+        - img: "/assets/images/art/s6-2.jpg"
+      url: "#"
 
 about_area:
   enable: true
