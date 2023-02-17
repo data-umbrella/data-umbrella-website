@@ -18,13 +18,26 @@ portfolio_area:
     - title: "Video"
       filter: "video"
   portfolios:
-    - title: "Crash Course in Contributing to Open Source"
+    - title: "Crash Course in Contributing to Open Source (Andreas Mueller)"
       sub_title: "Video"
       sm_img: "/assets/images/data-umbrella/scikit-learn/sklearn-video1.png"
       big_img: "/assets/images/data-umbrella/scikit-learn/sklearn-video1.png"
       url: "https://youtu.be/5OL8XoMMOfA"
+      resource: "Transcript"
+      resource_url: "https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/1_transcript_ACM_contributing_sklearn.md"
       filters:
         - video
+
+    - title: "A Step-by-Step Example Pull Request to scikit-learn (Reshama Shaikh)"
+      sub_title: "Video"
+      sm_img: "/assets/images/data-umbrella/scikit-learn/sklearn_rs_video.png"
+      big_img: "/assets/images/data-umbrella/scikit-learn/sklearn_rs_video.png"
+      url: "https://youtu.be/PU1WyDPGePI"
+      resource: "Transcript"
+      resource_url: "https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/2_transcript_RS_example_PR.md"
+      filters:
+        - video
+   
     - title: "Paperback Book"
       sub_title: "Corporate, Branding"
       sm_img: "/assets/images/art/s2.jpg"
@@ -87,6 +100,15 @@ portfolio_area:
       
 ---
 
+<div class="isotope-filter text-center">
+  <br>
+  <br>
+<!-- <h3 class="section-title mb-40 text-center> -->
+ <h4>
+  There are <a href="https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint">transcripts and translations</a> for many of the resources listed here.  
+</h4>
+</div>
+
 <div class="wrapper light-wrapper">
   <div class="container inner">
     <div class="grid grid-view">
@@ -113,6 +135,9 @@ portfolio_area:
             <div class="item-content">
               <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
               <div class="meta mb-0">{{portfolio.sub_title}}</div>
+              <div
+                <p><a href="{{portfolio.resource_url}}">{{portfolio.resource}}</a></p>
+              </div>
             </div>
             <!-- /.item-content -->
           </div>
