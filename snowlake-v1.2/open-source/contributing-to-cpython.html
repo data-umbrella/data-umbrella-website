@@ -116,7 +116,7 @@ portfolio_area:
 
 <div class="column">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Pkg-DKkObKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  
+
 </div>
 <!-- <div class="row">
  
@@ -126,45 +126,3 @@ portfolio_area:
 
 </div> -->
 
-<div class="wrapper light-wrapper">
-  <div class="container inner">
-    <div class="grid grid-view">
-      <div class="isotope-filter text-center">
-        <ul>
-          <li><a class="button active" data-filter="*">All</a></li>
-          {% for category in page.portfolio_area.categories %}
-           <li><a class="button" data-filter=".{{category.filter}}">{{category.title}}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="clearfix"></div>
-      <div class="tiles">
-        <div class="row isotope light-gallery-wrapper">
-          {% for portfolio in page.portfolio_area.portfolios %}
-          <div class="item item-detailed grid-sizer col-md-6 col-lg-4 {% for filter in portfolio.filters %} {{filter}} {% endfor %}">
-            <figure class="rounded mb-20">
-              <div class="item-detailed-img">
-                <img src="{{portfolio.sm_img}}" alt="{{portfolio.title}}"/>
-                <img src="{{portfolio.big_img}}" alt="{{portfolio.title}}"/></div>
-              <a href="{{portfolio.big_img}}" class="hover-icon-first lightbox" data-tip="Enlarge image"><i class="jam jam-qr-code"></i></a>
-              <a href="{{portfolio.url}}" class="hover-icon-second" data-tip="See details"><i class="jam jam-link"></i></a>
-            </figure>
-            <div class="item-content">
-              <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
-              <div class="meta mb-0">{{portfolio.sub_title}}</div>
-              <div
-                <p><a href="{{portfolio.resource_url}}">{{portfolio.resource}}</a></p>
-              </div>
-            </div>
-            <!-- /.item-content -->
-          </div>
-          {% endfor %}
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.tiles -->
-    </div>
-    <!-- /.grid -->
-  </div>
-  <!-- /.container -->
-</div>
