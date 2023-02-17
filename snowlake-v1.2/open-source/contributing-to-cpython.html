@@ -6,13 +6,29 @@ black_menu: true
 header_style: 'one'
 ---
 
+<style>
+  #container {
+  width: 100%;
+  background: #e8d2fa;
+  float: left;
+  margin-right: -200px;
+}
+#content {
+  background: #e8d2fa;
+  margin-right: 200px;
+}
+#sidebar {
+  width: 200px;
+  float: right;
+</style>
+
 <div>
-  <div class="row">
-      <div class="column">
+  <div id="container" class="row">
+      <div id="content" class="column">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Pkg-DKkObKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe>
       </div>
-      <div class="column">
+      <div id="sidebar" class="column">
         <p>
           <li>xxx
 
