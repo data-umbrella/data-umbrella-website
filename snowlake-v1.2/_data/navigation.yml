@@ -8,12 +8,14 @@ main_menu:
     #     url: "/"
 
   - text: "About"
-    url: "/about/"
+    url: "/about/about-data-umbrella"
     #menu_type: "dropdown"
     
     submenu:
       # - text: "About"
       #   url: ""
+      - text: "About"
+        url: "/about/about-data-umbrella"
       - text: "Team"
         url: "/about/team"
       - text: "Sponsors"
