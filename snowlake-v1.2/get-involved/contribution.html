@@ -24,9 +24,9 @@ services_area:
       icon: "/assets/images/icons/de-tv.png" 
 
     - title: "PyMC Sprint website"
-      sub_title: "We are looking for contributors to help us in translations (Spanish & Portuguese) and updating the website for PyMC sprints. "
+      sub_title: "We are looking for contributors to help us in translations (ES & PT) and updating the website for PyMC sprints. "
       skills_needed: "Markdown, Git and GitHub."
-      contributing_guide_url: "https://github.com/pymc-devs/pymc-data-umbrella/blob/main/CONTRIBUTING.md"
+      contributing_guide_url: "https://pymc-data-umbrella.xyz/en/latest/contributing/language-translations.html"
       url: "https://github.com/pymc-devs/pymc-data-umbrella"
       icon: "/assets/images/icons/ui-coding.png" 
 
@@ -151,9 +151,9 @@ big_cover_image:
             <h5>{{service.title}}</h5>
             <p style="text-align:left">{{service.sub_title}}</p>
             <p style="text-align:left"><b>Skills needed: </b>{{service.skills_needed}}</p>
-            <p style="text-align:left"><a href={{service.contributing_guide_url}}><b>Contributing Guide</b></a></p>
+            <p style="text-align:center"><a href={{service.contributing_guide_url}} class="btn btn-rose"><b>Contributing Guide</b></a></p>
 
-            <a href={{service.url}}>Link to project</a>
+            <a style="text-align:center" href={{service.url}} class="btn btn-cobalt">{{service.title}}</a>
           </div>
         </div>
         {% endfor %}
