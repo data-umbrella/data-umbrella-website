@@ -1,12 +1,5 @@
 main_menu:
 
-  - text: "Home"
-    url: ""
-    menu_type: "button"
-    # submenu:
-    #   - text: "Home"
-    #     url: "/"
-
   - text: "About"
     url: "/about/"
     #menu_type: "dropdown"
