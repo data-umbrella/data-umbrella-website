@@ -11,7 +11,7 @@ light_logo_2x: "/assets/images/logo-light@2x.png"
 
 address_01: ""
 phone_number: ""
-copyright_text: 2022 © Data Umbrella. Snowlake them Designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
+copyright_text: 2023 © Data Umbrella. Snowlake them Designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
 
 google_analytics:
   enable: false
@@ -23,7 +23,7 @@ google_map: |
 social_accounts:
   title: "Follow Us"
   links:
-    - url: https://www.meetup.com/nyc-data-umbrella/
+    - url: https://www.meetup.com/data-umbrella/
       icon: "fa-brands fa-meetup"
 
     - url: "https://forms.gle/B7ZwzGBEqpPJK1Yc6"

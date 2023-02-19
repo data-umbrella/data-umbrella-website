@@ -20,12 +20,12 @@ main_menu:
         url: "/about/sponsors"
       - text: "Community Partners"
         url: "/about/community-partners"
-      - text: "lightbox"
-        url: "/about/lightbox"
       - text: "FAQs"
         url: "/about/faq"
       - text: "Code of Conduct"
         url: "/about/coc"
+      - text: "Project List"
+        url: "/about/project_list"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
@@ -61,9 +61,14 @@ main_menu:
     url: "/open-source/"
     submenu:
       - text: "Open Source Sprints"
-        url: "/open-source/sprintlist"
+        url: "/open-source/sprint_list"
       - text: "Sprint Reports"
-        url: "/open-source/sprint_reports.html"
+        url: "/open-source/sprint_reports"
+      - text: "Contributing to scikit-learn"
+        url: "/open-source/contributing-to-scikit-learn"
+      - text: "Contributing to Core Python"
+        url: "/open-source/contributing-to-cpython"
+        
   - text: "Get Involved"
     url: "/"
     submenu:
@@ -72,9 +77,27 @@ main_menu:
       - text: "Volunteer"
         url: "/get-involved/volunteer"
         
+  - text: "Blog"
+    url: "/blogs/"
+    submenu:
+      - text: "Blog 02"
+        url: "/blogs/index-2"
+
+      - text: "Press: test page"
+        url: "/blogs/press"
+
+  # - text: "[In progress]"
+  #   url: "/in-progress/"
+  #   submenu:
+  #     - text: "Press"
+  #       url: "/in-progress/press"
+
   - text: "Projects"
     url: "/projects/"
     submenu:
+      - text: "Blog"
+        url:  "https://blog.dataumbrella.org/"
+
       - text: "Event Board"
         url:  "https://events.dataumbrella.org/"
 
@@ -123,29 +146,29 @@ main_menu:
       - text: "Resource 08"
         url: "/resources/resource-8"
 
-  - text: "News"
-    url: "/news/"
-    submenu:
-      - text: "News 01"
-        url: "/news/index"
+  # - text: "News"
+  #   url: "/news/"
+  #   submenu:
+  #     - text: "News 01"
+  #       url: "/news/index"
 
-      - text: "News 02"
-        url: "/news/index-2"
+  #     - text: "News 02"
+  #       url: "/news/index-2"
 
-      - text: "News 03"
-        url: "/news/index-3"
+  #     - text: "News 03"
+  #       url: "/news/index-3"
 
-      - text: "News 04"
-        url: "/news/index-4"
+  #     - text: "News 04"
+  #       url: "/news/index-4"
 
-      - text: "News 05"
-        url: "/news/index-5"
+  #     - text: "News 05"
+  #       url: "/news/index-5"
 
-      - text: "News 06"
-        url: "/news/index-6"
+  #     - text: "News 06"
+  #       url: "/news/index-6"
 
-      - text: "News 07"
-        url: "/news/index-7"
+  #     - text: "News 07"
+  #       url: "/news/index-7"
 
-      - text: "News 08"
-        url: "/news/index-8"
+  #     - text: "News 08"
+  #       url: "/news/index-8"
