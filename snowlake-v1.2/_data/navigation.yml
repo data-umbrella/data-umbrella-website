@@ -67,6 +67,8 @@ main_menu:
   - text: "Get Involved"
     url: "/"
     submenu:
+      - text: "Contribute to Data Umbrella"
+        url: "/get-involved/contribution"
       - text: "Volunteer"
         url: "/get-involved/volunteer"
         
