@@ -1,4 +1,25 @@
-# Installation
+# About
+Welcome! Data Umbrella is building a new website. We are slowly transferring content from our current website which is hosted using Google Sites (https://events.dataumbrella.org/) to this website-in-progress (https://dev.dataumbrella.org/).
+
+## Skills 
+A background in any of these skills will enable you to contribute:  
+- Git & GitHub
+- CSS
+- HTML
+- Markdown
+- UI/UX
+
+Note:  you do not need *all* of these skills.
+
+## Navigating Content
+Here is a guide on commonly used files:  
+1. **Menu** items:  to update menu items or add a page, see [navigation.yml](snowlake-v1.2/_data/navigation.yml)
+2. **Images**: Data Umbrella images can be found in the folder [assets/images/data-umbrella](snowlake-v1.2/assets/images/data-umbrella/)
+
+
+---
+
+# Building the Website Locally
 Instructions to build and test the [dev.dataumbrella.org](https://dev.dataumbrella.org/) site locally.
 
 ## Installing Ruby & Jekyll
@@ -14,7 +35,11 @@ To run the theme locally:
 ### Theme Documentation
 This website uses the [Snowlake theme](https://jekyllthemes.io/theme/snowlake-website-jekyll-theme). For more information on configuration/customization, navigate to [Documentation](https://github.com/data-umbrella/data-umbrella-website/tree/main/Documentation).
 
-# Workflow to Contribute
+A demo of the [Snowlake theme](https://snowlake.tortoizthemes.com/) is available for reference.
+
+---
+
+# Git Workflow to Contribute
 
 Note that pull requests (PRs) are to be submitted to the `main` branch.
 
