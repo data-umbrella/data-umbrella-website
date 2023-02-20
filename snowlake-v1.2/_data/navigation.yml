@@ -63,7 +63,15 @@ main_menu:
         url: "/open-source/contributing-to-scikit-learn"
       - text: "Contributing to Core Python"
         url: "/open-source/contributing-to-cpython"
-
+        
+  - text: "Get Involved"
+    url: "/"
+    submenu:
+      - text: "Contribute to Data Umbrella"
+        url: "/get-involved/contribution"
+      - text: "Volunteer"
+        url: "/get-involved/volunteer"
+        
   - text: "Blog"
     url: "/blogs/"
     submenu:

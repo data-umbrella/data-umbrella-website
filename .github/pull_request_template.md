@@ -1,24 +1,12 @@
-<!--
-Thanks for contributing a pull request! Please ensure you have taken a look at
-the contribution guidelines: https://github.com/data-umbrella/data-umbrella-website/blob/main/CONTRIBUTING.md
--->
-
-## PR Overview
-
-#### Type of contribution
-- [ ] Code
-- [ ] Documentation
-
-#### Reference: Issue or Pull Request (PR)
-- [ ] Towards #xxx   [this will keep reference issue or PR open]  <=== _When in doubt, pick this one._
-- [ ] Fixes #xxx. See also #xxx   [this will close the referenced issue or PR]
-- [ ] Resolves #xxx, #xxx [for multiple issues, this will close them]
-
 ## Description: What does this implement/fix? Explain your changes.
-[ add a description here ]
+<!-- add a description here --> 
 
 
-#### Reminders
+## Reference: Issue or Pull Request (PR)
+- [ ] Towards #xxx
+
+
+## Reminders
 
 - [ ] Did you review the [CONTRIBUTING GUIDE](https://github.com/data-umbrella/data-umbrella-website/blob/main/CONTRIBUTING.md)?
 - [ ] Did you reference an issue or another pull request?
