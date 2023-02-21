@@ -16,6 +16,8 @@ Here is a guide on commonly used files:
 1. **Menu** items:  to update menu items or add a page, see [navigation.yml](snowlake-v1.2/_data/navigation.yml)
 2. **Images**: Data Umbrella images can be found in the folder [assets/images/data-umbrella](snowlake-v1.2/assets/images/data-umbrella/)
 
+## Working on Issues
+If you would like to claim an issue, put a note on the issue "I am working on this" and submit a pull request within 1 week or provide updates.  If there is no activity on the issue for a week or more, it will be considered stale and open to other contributors to work on.
 
 ---
 
