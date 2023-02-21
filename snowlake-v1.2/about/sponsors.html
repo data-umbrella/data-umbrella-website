@@ -18,6 +18,8 @@ lightbox_area:
       hover_title: "View Larger"
       caption_title: "CZI"
       caption_sub_title: "CZI's mission is to build a more inclusive, just, and healthy future for everyone."
+      more_info: "Grant"
+      more_url: "https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/data-umbrella/"
 
     - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_google.svg"
       lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_google.svg"
@@ -26,45 +28,57 @@ lightbox_area:
       hover_title: "View Larger"
       caption_title: "Google Open Source"
       caption_sub_title: "We bring all the value of open source to Google and all the resources of Google to open source."
+      more_info: ""
+      more_url: ""
 
-    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_neo4j.svg"
+      - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_neo4j.svg"
       lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_neo4j.svg"
       url: "https://neo4j.com/"
       title: "Neo4j"
       hover_title: "View Larger"
       caption_title: "Neo4j"
       caption_sub_title: "Neo4j is a native graph database, to leverage not only data but also data relationships."
+      more_info: ""
+      more_url: ""
 
-    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_codess.svg"
+      - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_codess.svg"
       lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_codess.svg"
       url: "https://www.codeforsociety.org/eventfund/"
       title: "Code for Science & Society"
       hover_title: "View Larger"
       caption_title: "Code for Science & Society"
       caption_sub_title: "jXXXXXX"
+      more_info: ""
+      more_url: ""
 
-    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_moore.svg"
+      - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_moore.svg"
       lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_moore.svg"
       url: "https://www.moore.org/grant-detail?grantId=GBMF8449"
       title: "Gordon and Betty Moore Foundation"
       hover_title: "View Larger"
       caption_title: "Gordon and Betty Moore Foundation"
       caption_sub_title: "jXXXXXX"
+      more_info: ""
+      more_url: ""
 
-    - thumbnail: "/assets/images/data-umbrella/du-sponsors/mariatta_video.svg"
+      - thumbnail: "/assets/images/data-umbrella/du-sponsors/mariatta_video.svg"
       lightbox_url: "/assets/images/data-umbrella/du-sponsors/mariatta_video.svg"
       url: "https://youtu.be/NpWdYEp8-u4"
       title: "Inspirational Tips on Contributing to Open Source (Mariatta Wijaya)"
       hover_title: "View Larger"
       caption_title: "Mariatta Wijaya"
       caption_sub_title: "Purus Vulputate Sem Tellus Quam"
+      more_info: ""
+      more_url: ""
 
-    - thumbnail: "/assets/images/art/l4.jpg"
+      - thumbnail: "/assets/images/art/l4.jpg"
       lightbox_url: "https://www.youtube.com/watch?v=26TbMXXOe0I"
       title: "YouTube Video"
       hover_title: "View Larger"
       caption_title: "Heading"
       caption_sub_title: "Purus Vulputate Sem Tellus Quam"
+      more_info: ""
+      more_url: ""
 ---
 {% include header.html container_class="container" extra_class="absolute transparent inverse-text nav-uppercase" light_logo="true" %}
 <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{page.page_header.background_image}}">
@@ -97,16 +111,16 @@ lightbox_area:
                     <h5 class="from-top mb-0">{{lightbox.hover_title}}</h5>
                   </figcaption>
                 </figure>
-                <h4>{{lightbox.title}}</h4>
+                <!-- <h4>{{lightbox.title}}</h4>
                 <div class="caption d-none">
                   <h5>{{lightbox.caption_title}}</h5>
                   <p>{{lightbox.caption_sub_title}}</p>
-                </div>
+                </div> -->
                 <div class="item-content">
                   <h2 class="post-title mb-10"><a href="{{lightbox.url}}">{{lightbox.title}}</a></h2>
                   <div class="meta mb-0">{{lightbox.caption_sub_title}}</div>
                   <div
-                    <p><a href="{{lightbox.url}}">{{lightbox.title}}</a></p>
+                    <p><a href="{{lightbox.more_info_url}}">{{lightbox.more_info}}</a></p>
                   </div>
                 </div>
               </div>
