@@ -50,23 +50,26 @@ social_accounts:
 external_links:
   title: "Learn More"
   links:
+    - url: "https://blog.dataumbrella.org/"
+      text: "Data Umbrella Blog"
+
+    - url: "https://events.dataumbrella.org/"
+      text: "Events Board"
+
+    - url: "https://dataumbrella.substack.com/"
+      text: "Data Umbrella Newsletter"
+
     - url: "https://jobs.dataumbrella.org/"
       text: "Job Board"
-#     - url: "#"
-#       text: "Our Story"
-#     - url: "#"
-#       text: "Projects"
-#     - url: "#"
-#       text: "Pricing"
-#     - url: "#"
-#       text: "Features"
 
+external_links_02:
+  title: "Community Projects"
+  links:
+    - url: "https://pymc-data-umbrella.xyz"
+      text: "PyMC Open Source Sprints"
 
-# external_links_02:
-#   title: "Need Help?"
-#   links:
-#     - url: "#"
-#       text: "Support"
+    - url: "https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html"
+      text: "PyLadies Dashboard"
 #     - url: "#"
 #       text: "Get Started"
 #     - url: "#"
