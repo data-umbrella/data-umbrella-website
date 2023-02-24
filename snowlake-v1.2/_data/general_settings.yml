@@ -2,7 +2,7 @@
 title: "Data Umbrella"
 email: "info@dataumbrella.org"
 description: >- # this means to ignore newlines until "baseurl:"
-  An inclusive community for underrepresented persons in data science.
+  A community for underrepresented persons in data science.
 
 black_logo_1x: "/assets/images/logo.png"
 black_logo_2x: "/assets/images/logo@2x.png"
@@ -11,7 +11,7 @@ light_logo_2x: "/assets/images/logo-light@2x.png"
 
 address_01: ""
 phone_number: ""
-copyright_text: 2023 © Data Umbrella. Snowlake them designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
+copyright_text: 2023 © Data Umbrella. Snowlake theme designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
 
 google_analytics:
   enable: false
@@ -62,11 +62,14 @@ external_links:
     - url: "https://jobs.dataumbrella.org/"
       text: "Job Board"
 
-    - url: "https://www.meetup.com/data-umbrella-africa2/"
-      text: "Data Umbrella Africa meetup group"
-
     - url: "https://opencollective.com/data-umbrella"
-      text: "Data Umbrella on Open Collective"
+      text: "Open Collective"
+
+    - url: "https://www.meetup.com/data-umbrella/"
+      text: "Data Umbrella Global Meetup"
+
+    - url: "https://www.meetup.com/data-umbrella-africa2/"
+      text: "Data Umbrella Africa Meetup"
 
 external_links_02:
   title: "Community Projects"
