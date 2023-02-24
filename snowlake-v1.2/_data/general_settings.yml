@@ -11,7 +11,7 @@ light_logo_2x: "/assets/images/logo-light@2x.png"
 
 address_01: ""
 phone_number: ""
-copyright_text: 2023 © Data Umbrella. Snowlake them Designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
+copyright_text: 2023 © Data Umbrella. Snowlake them designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
 
 google_analytics:
   enable: false
@@ -26,23 +26,23 @@ social_accounts:
     - url: https://www.meetup.com/data-umbrella/
       icon: "fa-brands fa-meetup"
 
-    - url: "https://forms.gle/B7ZwzGBEqpPJK1Yc6"
-      icon: "fa-brands fa-discord"
-
     - url: "https://www.youtube.com/c/dataumbrella"
       icon: "jam jam-youtube"
 
-    - url: "https://twitter.com/DataUmbrella"
-      icon: "jam jam-twitter"
-
     - url: "https://www.linkedin.com/company/dataumbrella/"
       icon: "jam jam-linkedin"
+
+    - url: "https://twitter.com/DataUmbrella"
+      icon: "jam jam-twitter"
 
     - url:  "https://github.com/data-umbrella"
       icon: "fa-brands fa-github"
 
     - url: " https://www.facebook.com/data.umbrella.dei"
       icon: "jam jam-facebook"
+
+    # - url: "https://forms.gle/B7ZwzGBEqpPJK1Yc6"
+    #   icon: "fa-brands fa-discord"
 
 # external_links:
 #   title: "Learn More"
