@@ -19,6 +19,8 @@ main_menu:
         url: "/about/faq"
       - text: "Code of Conduct"
         url: "/about/coc"
+      - text: "Social Reach"
+        url: "/about/reach"
       - text: "Project List"
         url: "/about/project_list"
 
