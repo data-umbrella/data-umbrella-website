@@ -62,6 +62,12 @@ external_links:
     - url: "https://jobs.dataumbrella.org/"
       text: "Job Board"
 
+    - url: "https://www.meetup.com/data-umbrella-africa2/"
+      text: "Data Umbrella Africa meetup group"
+
+    - url: "https://opencollective.com/data-umbrella"
+      text: "Data Umbrella on Open Collective"
+
 external_links_02:
   title: "Community Projects"
   links:
