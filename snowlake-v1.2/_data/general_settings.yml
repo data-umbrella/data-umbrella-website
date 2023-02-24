@@ -47,11 +47,11 @@ social_accounts:
     # - url: "https://forms.gle/B7ZwzGBEqpPJK1Yc6"
     #   icon: "fa-brands fa-discord"
 
-# external_links:
-#   title: "Learn More"
-#   links:
-#     - url: "#"
-#       text: "About Us"
+external_links:
+  title: "Learn More"
+  links:
+    - url: "https://jobs.dataumbrella.org/"
+      text: "Job Board"
 #     - url: "#"
 #       text: "Our Story"
 #     - url: "#"
