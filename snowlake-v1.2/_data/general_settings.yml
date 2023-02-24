@@ -23,7 +23,7 @@ google_map: |
 social_accounts:
   title: "Follow Us"
   links:
-    - url: https://www.meetup.com/data-umbrella/
+    - url:  "https://www.meetup.com/data-umbrella/"
       icon: "fa-brands fa-meetup"
 
     - url: "https://www.youtube.com/c/dataumbrella"
@@ -37,6 +37,9 @@ social_accounts:
 
     - url:  "https://github.com/data-umbrella"
       icon: "fa-brands fa-github"
+
+    - url:  "https://www.instagram.com/data.umbrella/"
+      icon: "jam jam-instagram"
 
     - url: " https://www.facebook.com/data.umbrella.dei"
       icon: "jam jam-facebook"
