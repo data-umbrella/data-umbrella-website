@@ -23,6 +23,10 @@ main_menu:
         url: "/about/reach"
       - text: "Project List"
         url: "/about/project_list"
+      - text: "Test page"
+        url: "/about/test-videos"
+      - text: "Test page"
+        url: "index-rs-test1"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
