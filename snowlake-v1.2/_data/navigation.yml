@@ -21,6 +21,8 @@ main_menu:
         url: "/about/coc"
       - text: "Social Reach"
         url: "/about/reach"
+      - text: "Contact Us"
+        url: "/about/contact"
       - text: "Project List"
         url: "/about/project_list"
 
