@@ -3429,6 +3429,18 @@ th {
     max-width: 70px;
     height: auto;
 }
+table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr::before {
+    content: "";
+    display: table-cell;
+}
+table.sortable tbody tr::before {
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  43. PRICING
 /*-----------------------------------------------------------------------------------*/
