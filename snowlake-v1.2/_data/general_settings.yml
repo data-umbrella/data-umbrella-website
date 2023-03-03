@@ -14,8 +14,8 @@ phone_number: ""
 copyright_text: 2023 © Data Umbrella. Snowlake theme designed by <a href="https://jekyllthemes.io/developers/tortoiz-themes">Tortoiz</a>
 
 google_analytics:
-  enable: false
-  key: ""
+  enable: true
+  key: "G-EJP2ZPDXQC"
 
 google_map: |
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4564967931838!2d-122.03250858386237!3d37.33169997984258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b6e94ffe23%3A0x63bb79532baa6af4!2sApple+Campus!5e0!3m2!1sen!2str!4v1553850783971!5m2!1sen!2str" style="width:100%; height: 100%; border:0" allowfullscreen=""></iframe>
