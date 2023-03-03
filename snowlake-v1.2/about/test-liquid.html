@@ -10,6 +10,19 @@ page_header:
   author: Reshama Shaikh
 ---
 
+table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr::before {
+    content: "";
+    display: table-cell;
+}
+table.sortable tbody tr::before {
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
+}
+
 <div class="wrapper gray-wrapper">
   <div class="container inner">
        
