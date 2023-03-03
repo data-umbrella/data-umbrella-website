@@ -12,26 +12,13 @@ page_header:
 
 <div class="wrapper gray-wrapper">
   <div class="container inner">
-    
-    
-    This page describes the amazing {{ site.title }} by {{ site.author.name }}.
-    {{ page.example }}
-
-    
-    ## About About Pages
-    
-    The About page is a common convention found on websites.
-    It is your opportunity to let us know all the details "about" your project:
-    
-    - focus and topic area
-    - people involved
-    - code and projects used
-    
+       
     ## List of Animals
     
     {% for animal in site.data.animals %}
     - The {{ animal.name }} is a {{ animal.size }} animal.
-
+    <br>
+    
     {% endfor %}
     
     ## Large Animals are Better
@@ -51,7 +38,29 @@ page_header:
 
     {% endfor %}
     
-        
+    {% for item in site.data.music %}
+
+    <h2> {{ item[1].release.title }}</h2>
+
+    {% for medium in item[1].release.medium-list %}
+
+    <h3> {{ medium[1].format }} </h3>
+
+    <table border="1" style="width:100%">
+        <tr>
+            <td>Artist</td>
+            <td>Track title</td>
+        </tr>
+        {% for track in medium[1].track-list.track %}
+            <tr>
+                <td>{{ track.recording.artist-credit.name-credit.artist.name }}</td>
+                <td>{{ track.recording.title }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endfor %}
+{% endfor %}
+
   </div>
   <!-- /.container -->
 </div>
