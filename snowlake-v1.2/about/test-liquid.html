@@ -38,21 +38,23 @@ page_header:
     <br>
     {% endfor %}
     
-    {% for animal in site.data.animals %}
+
 
             <table border="1" style="width:100%">
                 <tr>
-                    <td>Artist</td>
-                    <td>Track title</td>
-                    <td>Track title</td>
+                    <td>Animal name</td>
+                    <td>Animal size</td>
+                    <td>Animal color</td>
                 </tr>
+                {% for animal in site.data.animals %}
                     <tr>
                         <td>{{ animal.name }}</td>
                         <td>{{ animal.size }}</td>
                         <td>{{ animal.color }}</td>
                     </tr>
+                {% endfor %}
             </table>
-    {% endfor %}
+
 
   </div>
   <!-- /.container -->
