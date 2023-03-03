@@ -18,7 +18,6 @@ page_header:
     {% for animal in site.data.animals %}
     - The {{ animal.name }} is a {{ animal.size }} animal.
     <br>
-    
     {% endfor %}
     
     ## Large Animals are Better
@@ -27,6 +26,7 @@ page_header:
     {% if animal.size == "large" %}
             - <strong style="color: {{ animal.color }};">{{ animal.name }}</strong>
     {% else %}- <small>{{ animal.name }}</small>
+    <br>
     {% endif %}
     {% endfor %}
     
@@ -35,26 +35,21 @@ page_header:
     {% assign small_animals = site.data.animals | where: "size", "small" %}
     {% for animal in small_animals %}
     - {{ animal.name | upcase }}
-
+    <br>
     {% endfor %}
     
-    {% for item in site.data.music %}
-
-    <h2> {{ item[1].release.title }}</h2>
-
-    {% for medium in item[1].release.medium-list %}
-
-    <h3> {{ medium[1].format }} </h3>
+    {% for item in site.data.animals %}
 
     <table border="1" style="width:100%">
         <tr>
             <td>Artist</td>
             <td>Track title</td>
+            <td>Track title</td>
         </tr>
-        {% for track in medium[1].track-list.track %}
             <tr>
-                <td>{{ track.recording.artist-credit.name-credit.artist.name }}</td>
-                <td>{{ track.recording.title }}</td>
+                <td>{{ animal.name }}</td>
+                <td>{{ animal.size }}</td>
+                <td>{{ animal.color }}</td>
             </tr>
         {% endfor %}
     </table>
