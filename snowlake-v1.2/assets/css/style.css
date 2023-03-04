@@ -3429,18 +3429,39 @@ th {
     max-width: 70px;
     height: auto;
 }
-table.sortable tbody {
+.table-sortable th {
+	cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+	content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+	content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+	margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+	background: rgba(0, 0, 0, 0.1);
+}
+/* table.sortable tbody {
     counter-reset: sortabletablescope;
 }
 table.sortable thead tr::before {
     content: "";
     display: table-cell;
-}
-table.sortable tbody tr::before {
+} */
+/* table.sortable tbody tr::before {
     content: counter(sortabletablescope);
     counter-increment: sortabletablescope;
     display: table-cell;
-}
+} */
 /*-----------------------------------------------------------------------------------*/
 /*  43. PRICING
 /*-----------------------------------------------------------------------------------*/

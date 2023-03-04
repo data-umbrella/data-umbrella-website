@@ -10,6 +10,9 @@ page_header:
   author: Reshama Shaikh
 ---
 
+<!-- Ref:
+https://dcode.domenade.com/tutorials/how-to-easily-sort-html-tables-with-css-and-javascript -->
+
 <div class="wrapper gray-wrapper">
   <div class="container inner">
             <table border="1" style="width:100%" class="sortable">
@@ -27,6 +30,46 @@ page_header:
                 {% endfor %}
             </table>
 
+            <body>
+                <table class="table-sortable">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Occupation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Dom</td>
+                            <td>35</td>
+                            <td>Web Developer</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Rebecca</td>
+                            <td>29</td>
+                            <td>Teacher</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>John</td>
+                            <td>30</td>
+                            <td>Civil Engineer</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Andre</td>
+                            <td>20</td>
+                            <td>Dentist</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+                <script src="../assets/js/tablesort.js"></script>
+            </body>
 
   </div>
   <!-- /.container -->
