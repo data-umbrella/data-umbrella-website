@@ -25,6 +25,8 @@ main_menu:
         url: "/about/contact"
       - text: "Project List"
         url: "/about/project_list"
+      - text: "test"
+        url: "/about/test-liquid"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
