@@ -1,84 +1,55 @@
----
-layout: page_2
-page_header:
-  enable: true
-  title: "Data Umbrella: Social Media Reach"
-  sub_title: ""
-  background_image: "/assets/images/art/bg1.jpg"
-  title: About
-  example: This is an example value.
-  author: Reshama Shaikh
----
-
 <!-- Ref:
 https://dcode.domenade.com/tutorials/how-to-easily-sort-html-tables-with-css-and-javascript -->
 
-<div class="wrapper gray-wrapper">
-    <div class="container inner">
-        <table border="1" style="width:100%" class="sortable">
-            <tr>
-                <td>Animal name</td>
-                <td>Animal size</td>
-                <td>Animal color</td>
-            </tr>
-            {% for animal in site.data.animals %}
-                <tr>
-                    <td>{{ animal.name }}</td>
-                    <td>{{ animal.size }}</td>
-                    <td>{{ animal.color }}</td>
-                </tr>
-            {% endfor %}
-        </table>
-    </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.wrapper -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Easily Sort HTML Tables with CSS and JavaScript</title>
+	<!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{relative_url}}/assets/css/bootstrap.min.css"/>
+</head>
+<body>
+    <script src="{{relative_url}}/assets/js/tablesort.js"></script>
+	<table class="table-sortable">
+		<thead>
+			<tr>
+				<th>Rank</th>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Occupation</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Dom</td>
+				<td>35</td>
+				<td>Web Developer</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Rebecca</td>
+				<td>29</td>
+				<td>Teacher</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>John</td>
+				<td>30</td>
+				<td>Civil Engineer</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Andre</td>
+				<td>20</td>
+				<td>Dentist</td>
+			</tr>
+		</tbody>
+	</table>
 
-  
-<div class="wrapper gray-wrapper">
-  <div class="container inner">
-            <body>
-                <table class="table-sortable">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th>Name</th>
-                            <th>Age</th>
-                            <th>Occupation</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Dom</td>
-                            <td>35</td>
-                            <td>Web Developer</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Rebecca</td>
-                            <td>29</td>
-                            <td>Teacher</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>John</td>
-                            <td>30</td>
-                            <td>Civil Engineer</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Andre</td>
-                            <td>20</td>
-                            <td>Dentist</td>
-                        </tr>
-                    </tbody>
-                </table>
-            
-                <script src="../assets/js/tablesort.js"></script>
-            </body>
-
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.wrapper -->
+	<script src="../assets/js/tablesort.js"></script>
+</body>
+</html>
