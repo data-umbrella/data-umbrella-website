@@ -14,22 +14,29 @@ page_header:
 https://dcode.domenade.com/tutorials/how-to-easily-sort-html-tables-with-css-and-javascript -->
 
 <div class="wrapper gray-wrapper">
-  <div class="container inner">
-            <table border="1" style="width:100%" class="sortable">
+    <div class="container inner">
+        <table border="1" style="width:100%" class="sortable">
+            <tr>
+                <td>Animal name</td>
+                <td>Animal size</td>
+                <td>Animal color</td>
+            </tr>
+            {% for animal in site.data.animals %}
                 <tr>
-                    <td>Animal name</td>
-                    <td>Animal size</td>
-                    <td>Animal color</td>
+                    <td>{{ animal.name }}</td>
+                    <td>{{ animal.size }}</td>
+                    <td>{{ animal.color }}</td>
                 </tr>
-                {% for animal in site.data.animals %}
-                    <tr>
-                        <td>{{ animal.name }}</td>
-                        <td>{{ animal.size }}</td>
-                        <td>{{ animal.color }}</td>
-                    </tr>
-                {% endfor %}
-            </table>
+            {% endfor %}
+        </table>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.wrapper -->
 
+  
+<div class="wrapper gray-wrapper">
+  <div class="container inner">
             <body>
                 <table class="table-sortable">
                     <thead>
