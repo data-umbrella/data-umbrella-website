@@ -29,14 +29,17 @@ two_columns_one:
   image_url: "https://pymc-data-umbrella.xyz/en/latest/2023-03_sprint/index.html"
   lists:
 
-    - title: "Secured Transactions"
+    - title: "Sign up on Meetup"
+      title_url: "https://www.meetup.com/data-umbrella/events/291768545/"
       sub_title: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus."
 
-    - title: "Bills Planning"
+    - title: "Submit registration form"
+      title_url: "https://forms.gle/YfbGnaTEQUrFVGK89"
       sub_title: "Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue."
 
-    - title: "Always up to date"
-      sub_title: "Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis."
+    - title: "Translations"
+      title_url: "https://www.meetup.com/data-umbrella/events/291768545/"
+      sub_title: "Select on top left of website: EN, ES, PT"
 
 features_area:
   enable: true
@@ -367,7 +370,10 @@ contact_area:
                         <span class="icon icon-bg icon-bg-default color-default mr-25"><span class="number">{{forloop.index}}</span></span>
                     </div>
                     <div>
-                        <h5>{{list.title}}</h5>
+                        <!-- <h5>{{list.title}}</h5> -->
+                        <a href="{{list.title_url}}" class="lightbox" data-sub-html=".caption"> 
+                          <img src="{{list.title}}" alt="{{list.title}}"/>
+                        </a>
                         <p class="mb-0">{{list.sub_title}}</p>
                     </div>
                 </div>
