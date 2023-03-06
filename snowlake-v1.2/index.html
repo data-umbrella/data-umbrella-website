@@ -26,6 +26,7 @@ two_columns_one:
   title: "Open Source Event"
   sub_title: "PyMC Open Source Contributing Session: March 30, 2023"
   image: "/assets/images/data-umbrella/du-home/cps_2023_03.png"
+  image_url: "https://pymc-data-umbrella.xyz/en/latest/2023-03_sprint/index.html"
   lists:
 
     - title: "Secured Transactions"
@@ -350,7 +351,10 @@ contact_area:
             {% if page.two_columns_one.image %}
             <div class="col-lg-7">
                 <figure class="shadow">
-                    <img src="{{page.two_columns_one.image}}" alt="{{page.two_columns_one.title}}" />
+                    <!-- <img src="{{page.two_columns_one.image}}" alt="{{page.two_columns_one.title}}" /> -->
+                    <a href="{{page.two_columns_one.image_url}}" class="lightbox" data-sub-html=".caption"> 
+                      <img src="{{page.two_columns_one.image}}" alt="{{page.two_columns_one.title}}"/>
+                    </a>
                 </figure>
             </div>
             {% endif %}
