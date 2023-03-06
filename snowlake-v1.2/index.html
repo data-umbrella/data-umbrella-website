@@ -340,9 +340,10 @@ contact_area:
 		    {% endif %}
     	</div>
     </div>
-    <div class="space40"></div>
-    
+  
     {% if page.two_columns_one.enable %}
+    <div class="wrapper white-wrapper">
+      <div class="container inner pb-50">
     <div class="two-columns-one">
         <div class="space160"></div>
         <div class="row">
@@ -384,6 +385,10 @@ contact_area:
         <!--/.row -->
     </div>
     {% endif %}
+</div>
+</div>
+
+    <div class="space40"></div>
     {% if page.features_area.enable %}
     <div class="row gutter-60 gutter-md-30">
       {% for features in page.features_area.features %}
