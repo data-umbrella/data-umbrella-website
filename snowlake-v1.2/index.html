@@ -22,6 +22,22 @@ slider_area:
       button_text: "Data Umbrella YouTube" 
       button_url: "https://www.youtube.com/@DataUmbrella"
 
+two_columns_one:
+  enable: true
+  title: "How It Works"
+  sub_title: "Find out everything you need to know about creating a business process model."
+  image: "/assets/images/art/ui5.png"
+  lists:
+
+    - title: "Secured Transactions"
+    sub_title: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus."
+
+    - title: "Bills Planning"
+    sub_title: "Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue."
+
+    - title: "Always up to date"
+    sub_title: "Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis."
+
 features_area:
   enable: true
   title: "Our Video Tutorials"
@@ -50,22 +66,6 @@ features_area:
       icon_color: "purple"
       description: "Lux is a lightweight visualization tool on top of Pandas dataframes which recommends useful visualizations to users."
       video_url: "https://www.youtube.com/embed/O28RZ8SsSQk"
-
-two_columns_one:
-  enable: true
-  title: "How It Works"
-  sub_title: "Find out everything you need to know about creating a business process model."
-  image: "/assets/images/art/ui5.png"
-  lists:
-
-    - title: "Secured Transactions"
-      sub_title: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus."
-
-    - title: "Bills Planning"
-      sub_title: "Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue."
-
-    - title: "Always up to date"
-      sub_title: "Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis."
 
 video_area:
   enable: true
@@ -330,17 +330,6 @@ contact_area:
 
 <div class="wrapper white-wrapper">
   <div class="container inner">
-    <div class="row">
-    	<div class="col-md-9">
-		    {% if page.features_area.title %}
-		     <h2 class="title-color color-gray">{{page.features_area.title}}</h2>
-		    {% endif %}
-		    {% if page.features_area.sub_title %}
-		     <h2 class="display-3">{{page.features_area.sub_title}}</h2>
-		    {% endif %}
-    	</div>
-    </div>
-  
     {% if page.two_columns_one.enable %}
     <div class="wrapper white-wrapper">
       <div class="container inner pb-50">
@@ -387,7 +376,18 @@ contact_area:
     {% endif %}
 </div>
 </div>
-
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+<div class="row">
+  <div class="col-md-9">
+    {% if page.features_area.title %}
+     <h2 class="title-color color-gray">{{page.features_area.title}}</h2>
+    {% endif %}
+    {% if page.features_area.sub_title %}
+     <h2 class="display-3">{{page.features_area.sub_title}}</h2>
+    {% endif %}
+  </div>
+</div>
     <div class="space40"></div>
     {% if page.features_area.enable %}
     <div class="row gutter-60 gutter-md-30">
