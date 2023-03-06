@@ -24,26 +24,32 @@ slider_area:
 
 features_area:
   enable: true
-  title: "What We Do?"
-  sub_title: "The full service we are offering is specifically designed to meet your business needs."
+  title: "Our Video Tutorials"
+  sub_title: "Check out our videos on data science, open source and career advice."
   features:
-    - title: "SEO Services"
-      icon: "jam jam-search"
+    - title: "Sphinx for Python Documentation"
+      icon: "jam jam-document"
       icon_color: "blue"
-      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo."
-      video_url: "https://www.youtube.com/embed/Pkg-DKkObKs"
+      description: "A high-level explanation of how the Sphinx tool for generating documentation automatically works for Python packages."
+      video_url: "https://www.youtube.com/embed/tXWscUSYdBs"
 
-    - title: "Web Design"
-      icon: "jam jam-layout"
+    - title: "Intro to Probabilistic Programming with PyMC"
+      icon: "jam jam-layers-f"
       icon_color: "green"
-      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo."
-      video_url: "https://youtu.be/7E8nLExn3WI"
+      description: "PyMC is an open source python probabilistic programming which makes Bayesian inference algorithms more accessible."
+      video_url: "https://www.youtube.com/embed/Qu6-_AnRCs8"
 
-    - title: "Social Engagement"
-      icon: "jam jam-share-alt"
-      icon_color: "pink"
-      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo."
-      video_url: "https://youtu.be/tXWscUSYdBs"
+    - title: "Land Your First Data Science Job"
+      icon: "jam jam-bar-chart"
+      icon_color: "red"
+      description: "Leave with a plan to discover, prepare for, and land a first career role in data. Covers interviewing and networking."
+      video_url: "https://www.youtube.com/embed/qDQ7z7FrG20"
+
+    - title: "Visualize Your Pandas Dataframe with Lux"
+      icon: "jam jam-grid"
+      icon_color: "purple"
+      description: "Lux is a lightweight visualization tool on top of Pandas dataframes which recommends useful visualizations to users."
+      video_url: "https://www.youtube.com/embed/O28RZ8SsSQk"
 
 video_area:
   enable: true
@@ -322,16 +328,16 @@ contact_area:
     {% if page.features_area.enable %}
     <div class="row gutter-60 gutter-md-30">
       {% for features in page.features_area.features %}
-      <div class="col-md-6 col-lg-3">
+      <div class="col-md-6 col-lg-3" padding=5px>
       	{% if features.icon %}
          <div class="icon icon-blob icon-blob-{{features.icon_color}} color-{{features.icon_color}} mb-20"> <i class="{{features.icon}}"></i> </div>
          {% endif %}
         <h5>{{features.title}}</h5>
-        <p>{{features.description}}</p>
         <!-- <div class="col-lg-6""> -->
           <!-- <figure><img src="/assets/images/art/ui6.png" alt="Why Choose Us?"/></figure> -->
-          <iframe width="300" height="170" src="{{features.video_url}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="250" height="150" padding=5px src="{{features.video_url}}" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <!-- </div> -->
+        <p>{{features.description}}</p>
       </div>
       {% endfor %}
     </div>
