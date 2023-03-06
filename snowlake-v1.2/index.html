@@ -42,11 +42,6 @@ features_area:
       icon_color: "pink"
       description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo."
 
-    - title: "Content Marketing"
-      icon: "jam jam-task-list"
-      icon_color: "purple"
-      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo."
-
 video_area:
   enable: true
   title: "How It Works?"
@@ -327,11 +322,11 @@ contact_area:
       <div class="col-md-6 col-lg-3">
       	{% if features.icon %}
          <div class="icon icon-blob icon-blob-{{features.icon_color}} color-{{features.icon_color}} mb-20"> <i class="{{features.icon}}"></i> </div>
+         {% endif %}
          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
           <!-- <figure><img src="/assets/images/art/ui6.png" alt="Why Choose Us?"/></figure> -->
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Pkg-DKkObKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-         {% endif %}
         <h5>{{features.title}}</h5>
         <p>{{features.description}}</p>
       </div>
