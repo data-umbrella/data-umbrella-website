@@ -51,6 +51,22 @@ features_area:
       description: "Lux is a lightweight visualization tool on top of Pandas dataframes which recommends useful visualizations to users."
       video_url: "https://www.youtube.com/embed/O28RZ8SsSQk"
 
+two_columns_one:
+  enable: true
+  title: "How It Works"
+  sub_title: "Find out everything you need to know about creating a business process model."
+  image: "/assets/images/art/ui5.png"
+  lists:
+
+    - title: "Secured Transactions"
+      sub_title: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus."
+
+    - title: "Bills Planning"
+      sub_title: "Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue."
+
+    - title: "Always up to date"
+      sub_title: "Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis."
+
 video_area:
   enable: true
   title: "How It Works?"
@@ -325,6 +341,49 @@ contact_area:
     	</div>
     </div>
     <div class="space40"></div>
+    
+    {% if page.two_columns_one.enable %}
+    <div class="two-columns-one">
+        <div class="space160"></div>
+        <div class="row">
+            <div class="col-md-7 mx-auto">
+                {% if page.two_columns_one.title %}
+                <h2 class="title-color color-gray text-center">{{page.two_columns_one.title}}</h2>
+                {% endif %} {% if page.two_columns_one.sub_title %}
+                <h3 class="display-3 text-center">{{page.two_columns_one.sub_title}}</h3>
+                {% endif %}
+            </div>
+        </div>
+        <div class="space40"></div>
+        <div class="row align-items-xl-center">
+            {% if page.two_columns_one.image %}
+            <div class="col-lg-7">
+                <figure class="shadow">
+                    <img src="{{page.two_columns_one.image}}" alt="{{page.two_columns_one.title}}" />
+                </figure>
+            </div>
+            {% endif %}
+            <div class="space20 d-md-none"></div>
+            <div class="space50 d-none d-md-block d-lg-none"></div>
+            <div class="col-lg-5 pl-50 pl-md-15">
+                {% for list in page.two_columns_one.lists %}
+                <div class="d-flex flex-row">
+                    <div>
+                        <span class="icon icon-bg icon-bg-default color-default mr-25"><span class="number">{{forloop.index}}</span></span>
+                    </div>
+                    <div>
+                        <h5>{{list.title}}</h5>
+                        <p class="mb-0">{{list.sub_title}}</p>
+                    </div>
+                </div>
+                <div class="space40"></div>
+                {% endfor %}
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+    </div>
+    {% endif %}
     {% if page.features_area.enable %}
     <div class="row gutter-60 gutter-md-30">
       {% for features in page.features_area.features %}
