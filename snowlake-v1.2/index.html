@@ -21,6 +21,22 @@ slider_area:
       button_text: "Data Umbrella YouTube" 
       button_url: "https://www.youtube.com/@DataUmbrella"
 
+two_columns_one:
+  enable: true
+  title: "How It Works"
+  sub_title: "Find out everything you need to know about creating a business process model."
+  image: "/assets/images/art/ui5.png"
+  lists:
+
+    - title: "Secured Transactions"
+      sub_title: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus."
+
+    - title: "Bills Planning"
+      sub_title: "Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue."
+
+    - title: "Always up to date"
+      sub_title: "Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis."
+
 features_area:
   enable: true
   title: "Our Video Tutorials"
@@ -312,9 +328,58 @@ contact_area:
 </div>
 <!-- /.wrapper -->
 {% endif %}
+<!-- SLIDER AREA STOP -->
 
+
+<!-- FEATURES AREA START -->
 <div class="wrapper white-wrapper">
   <div class="container inner">
+
+    {% if page.two_columns_one.enable %}
+    <div class="two-columns-one">
+        <div class="space160"></div>
+        <div class="row">
+            <div class="col-md-7 mx-auto">
+                {% if page.two_columns_one.title %}
+                <h2 class="title-color color-gray text-center">{{page.two_columns_one.title}}</h2>
+                {% endif %} {% if page.two_columns_one.sub_title %}
+                <h3 class="display-3 text-center">{{page.two_columns_one.sub_title}}</h3>
+                {% endif %}
+            </div>
+        </div>
+        <div class="space40"></div>
+        <div class="row align-items-xl-center">
+            {% if page.two_columns_one.image %}
+            <div class="col-lg-7">
+                <figure class="shadow">
+                    <img src="{{page.two_columns_one.image}}" alt="{{page.two_columns_one.title}}" />
+                </figure>
+            </div>
+            {% endif %}
+            <div class="space20 d-md-none"></div>
+            <div class="space50 d-none d-md-block d-lg-none"></div>
+            <div class="col-lg-5 pl-50 pl-md-15">
+                {% for list in page.two_columns_one.lists %}
+                <div class="d-flex flex-row">
+                    <div>
+                        <span class="icon icon-bg icon-bg-default color-default mr-25"><span class="number">{{forloop.index}}</span></span>
+                    </div>
+                    <div>
+                        <h5>{{list.title}}</h5>
+                        <p class="mb-0">{{list.sub_title}}</p>
+                    </div>
+                </div>
+                <div class="space40"></div>
+                {% endfor %}
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+    </div>
+    {% endif %}
+</div>
+</div>
+
     <div class="row">
     	<div class="col-md-9">
 		    {% if page.features_area.title %}
@@ -344,6 +409,8 @@ contact_area:
     </div>
     <!--/.row -->
     {% endif %}
+
+
     {% if page.video_area.enable %}
     <div class="space140"></div>
     <div class="row align-items-center">
@@ -384,9 +451,12 @@ contact_area:
   <!-- /.container -->
 </div>
 <!-- /.wrapper -->
+
+
 {% if page.progress_area %}
 <div class="wrapper light-wrapper">
   <div class="container inner">
+
     <div class="row align-items-center">
       <div class="col-lg-6">
       	{% if page.progress_area.title %}
@@ -419,9 +489,12 @@ contact_area:
 </div>
 <!-- /.wrapper -->
 {% endif %}
+
+
 {% if page.projects_area.enable %}
 <div class="wrapper white-wrapper">
   <div class="container inner pb-50">
+
   	{% if page.projects_area.title %}
      <h2 class="title-color color-gray">{{page.projects_area.title}}</h2>
     {% endif %}
@@ -461,6 +534,8 @@ contact_area:
 </div>
 <!-- /.wrapper -->
 {% endif %}
+
+
 {% if page.completed_projects.enable %}
 <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="{{page.completed_projects.bg_image}}">
   <div class="container inner text-center">
@@ -485,6 +560,8 @@ contact_area:
 </div>
 <!-- /.wrapper -->
 {% endif %}
+
+
 <div class="wrapper overflow-top bleed-s">
   <div class="container inner pt-0">
   	{% if page.testimonials.enable %}
@@ -520,6 +597,7 @@ contact_area:
     </div>
     <!-- /.grid-view -->
     {% endif %}
+
     {% if page.clients_carousel.enable %}
     <div class="space80"></div>
       {% include clients_carousel.html %}
@@ -530,6 +608,8 @@ contact_area:
   <!-- /.container -->
 </div>
 <!-- /.wrapper -->
+
+
 	{% if page.blogs_area.enable %}
 	<div class="wrapper white-wrapper">
 	  <div class="container inner">
