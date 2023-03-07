@@ -21,6 +21,54 @@ slider_area:
       button_text: "Data Umbrella YouTube" 
       button_url: "https://www.youtube.com/@DataUmbrella"
 
+portfolios_area:
+  enable: true
+  categories:
+    - title: "Branding"
+      filter: "branding"
+    
+    - title: "Corporate"
+    filter: "corporate"
+    
+    - title: "Application"
+    filter: "application"
+    
+    - title: "Video"
+    filter: "video"
+    
+    portfolios:
+      - title: "Diversify Tech"
+        sub_title: "Corporate, Application"
+        sm_image: "/assets/images/data-umbrella/du-community-partners/cp_diversify_tech.svg"
+        big_image: "/assets/images/data-umbrella/du-community-partners/cp_diversify_tech.svg"
+        url: "https://www.diversifytech.co/"
+        filters:
+          - corporate
+          - branding
+      - title: "Tech By Choice"
+        sub_title: "Corporate, Application"
+        sm_image: "/assets/images/data-umbrella/du-community-partners/cp_tech_by_choice.svg"
+        big_image: "/assets/images/data-umbrella/du-community-partners/cp_tech_by_choice.svg"
+        url: "https://www.techbychoice.org/"
+        filters:
+          - corporate
+          - branding
+      - title: "Data For Science"
+        sub_title: "Corporate, Application"
+        sm_image: "/assets/images/data-umbrella/du-community-partners/cp_data_for_science.svg"
+        big_image: "/assets/images/data-umbrella/du-community-partners/cp_data_for_science.svg"
+        url: "https://data4sci.com/"
+        filters:
+          - corporate
+          - branding
+      - title: "Nullam Mollis"
+        sub_title: "Application"
+        sm_image: "/assets/images/art/s3.jpg"
+        big_image: "/assets/images/art/s3-2.jpg"
+        url: "#"
+        filters:
+          - video
+
 lightbox_area:
   enabled: true
   lightboxes:
@@ -387,67 +435,51 @@ contact_area:
 <!-- SLIDER AREA STOP -->
 
 <!-- LIGHTBOX TEMPLATE START (Sponsors)-->
-<div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{page.page_header.background_image}}">
-  <div class="container inner text-center">
-    <div class="space90"></div>
-    {% if page.page_header.title %}
-     <h1 class="page-title">{{page.page_header.title}}</h1>
-    {% endif %}
-    {% if page.page_header.sub_title %}
-     <p class="lead">{{page.page_header.sub_title}}</p>
-    {% endif %}
-  </div>
-  <!-- /.container -->
-</div>
-
-<!-- /.wrapper -->
+{% if page.portfolios_area.enable %}
 <div class="wrapper light-wrapper">
   <div class="container inner">
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <div class="grid text-center light-gallery-wrapper">
-          <div class="tiles">
-            <div class="isotope row">
-             {% for lightbox in page.lightbox_area.lightboxes %}
-              <div class="item grid-sizer col-md-6">
-                <figure class="overlay overlay1 rounded mb-15">
-                  <a href="{{lightbox.lightbox_url}}" class="lightbox" data-sub-html=".caption"> 
-                    <img src="{{lightbox.thumbnail}}" alt="{{lightbox.title}}"/>
-                  </a>
-                  <figcaption>
-                    <h5 class="from-top mb-0">{{lightbox.hover_title}}</h5>
-                  </figcaption>
-                </figure>
-                <!-- <h4>{{lightbox.title}}</h4> -->
-                <h4><a href="{{lightbox.url}}">{{lightbox.title}}</a></h4>
-                <div class="caption d-none">
-                  <!-- <h5>{{lightbox.caption_title}}</h5> -->
-                  <!-- <p>{{lightbox.caption_sub_title}}</p> -->
-                </div>
-                <div class="item-content">
-                  <!-- <h2 class="post-title mb-10"><a href="{{lightbox.url}}">{{lightbox.title}}</a></h2> -->
-                  <div class="meta mb-0">{{lightbox.caption_sub_title}}</div>
-                  <div
-                    <p>{{lightbox.years}}</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-              {% endfor %}
-            </div>
-            <!--/.row -->
-          </div>
-          <!-- /.tiles -->
-        </div>
-        <!-- /.grid -->
+    <div class="grid grid-view boxed">
+      <div class="isotope-filter text-center">
+        <ul>
+          <li><a class="button active" data-filter="*">All</a></li>
+          {% for category in page.portfolios_area.categories %}
+           <li><a class="button" data-filter=".{{category.filter}}">{{category.title}}</a></li>
+          {% endfor %}
+        </ul>
       </div>
-      <!-- /column -->
+      <div class="clearfix"></div>
+      <div class="tiles">
+        <div class="row isotope light-gallery-wrapper">
+          {% for portfolio in  page.portfolios_area.portfolios %}
+          <div class="item item-detailed grid-sizer col-md-6 col-lg-4 {% for filter in portfolio.filters %} {{filter}} {% endfor %}">
+            <div class="box bg-white shadow p-30">
+              <figure class="main rounded mb-30">
+                <div class="item-detailed-image">
+                    <img src="{{portfolio.sm_image}}" alt="" />
+                    <img src="{{portfolio.big_image}}" alt="" />
+                </div>
+                <a href="{{portfolio.sm_image}}" class="hover-icon-first lightbox" data-tip="Enlarge image"><i class="jam jam-qr-code"></i></a>
+                <a href="#" class="hover-icon-second" data-tip="See details"><i class="jam jam-link"></i></a>
+              </figure>
+              <div class="item-content">
+                <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
+                <div class="meta mb-0">{{portfolio.sub_title}}</div>
+              </div>
+              <!-- /.post-content -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.item -->
+          {% endfor %}
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.tiles -->
     </div>
-    <!-- /.row -->
+    <!-- /.grid -->
   </div>
-  <!-- /.container -->
 </div>
-<!-- /.wrapper -->
+{% endif %}
 
 <!-- TWO COLUMNS ONE START -->
     {% if page.two_columns_one.enable %}
