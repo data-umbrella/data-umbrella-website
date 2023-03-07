@@ -21,6 +21,57 @@ slider_area:
       button_text: "Data Umbrella YouTube" 
       button_url: "https://www.youtube.com/@DataUmbrella"
 
+lightbox_area:
+  enabled: true
+  lightboxes:
+
+    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_czi.svg"
+      lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_czi.svg"
+      url: "https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/data-umbrella/"
+      title: "CZI"
+      hover_title: "View Larger"
+      caption_title: "CZI"
+      caption_sub_title: "CZI's mission is to build a more inclusive, just, and healthy future for everyone."
+      more_info: "xxx"
+      more_url: "https://chanzuckerberg.com/"
+      years: "2021-current (Funding Sponsor)"
+
+    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_google.svg"
+      lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_google.svg"
+      url: "https://opensource.google/"
+      title: "Google Open Source"
+      hover_title: "View Larger"
+      caption_title: "Google Open Source"
+      caption_sub_title: "We bring all the value of open source to Google and all the resources of Google to open source."
+      years: "2022-current (Funding Sponsor)"
+
+    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_codess.svg"
+      lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_codess.svg"
+      url: "https://www.codeforsociety.org/eventfund/"
+      title: "Code for Science & Society"
+      hover_title: "View Larger"
+      caption_title: "Code for Science & Society"
+      caption_sub_title: "We envision a future where research, data, and tech initiatives shift power to communities through programs centered on social infrastructure in research and technology."
+      years: "2021 (Funding Sponsor)"
+
+    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_moore.svg"
+      lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_moore.svg"
+      url: "https://www.moore.org/grant-detail?grantId=GBMF8449"
+      title: "Gordon and Betty Moore Foundation"
+      hover_title: "View Larger"
+      caption_title: "Gordon and Betty Moore Foundation"
+      caption_sub_title: "Creating positive outcomes for future generations"
+      years: "2021 (Funding Sponsor)"
+
+    - thumbnail: "/assets/images/data-umbrella/du-sponsors/sponsor_neo4j.svg"
+      lightbox_url: "/assets/images/data-umbrella/du-sponsors/sponsor_neo4j.svg"
+      url: "https://neo4j.com/"
+      title: "Neo4j"
+      hover_title: "View Larger"
+      caption_title: "Neo4j"
+      caption_sub_title: "Neo4j is a native graph database, to leverage not only data but also data relationships.                                                                                          "
+      years: "2020-current (Program Sponsor)"
+
 two_columns_one:
   enable: true
   title: "Open Source Event"
@@ -226,6 +277,76 @@ contact_area:
 <div class="content-wrapper">
 {% include header.html extra_class="absolute transparent" logo_class="logo" container_class="container" %}
 
+<!-- LIGHTBOX TEMPLATE START (Sponsors)-->
+<div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{page.page_header.background_image}}">
+  <div class="container inner text-center">
+    <div class="space90"></div>
+    {% if page.page_header.title %}
+     <h1 class="page-title">{{page.page_header.title}}</h1>
+    {% endif %}
+    {% if page.page_header.sub_title %}
+     <p class="lead">{{page.page_header.sub_title}}</p>
+    {% endif %}
+  </div>
+  <!-- /.container -->
+</div>
+<div class="isotope-filter text-center">
+  <br>
+  <br>
+ <h4>
+  If you would like to support Data Umbrella, visit
+<a href="https://opencollective.com/data-umbrella"> our Collective </a>or email us at info at dataumbrella dot org.  
+</h4>
+</div>
+<!-- /.wrapper -->
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="grid text-center light-gallery-wrapper">
+          <div class="tiles">
+            <div class="isotope row">
+             {% for lightbox in page.lightbox_area.lightboxes %}
+              <div class="item grid-sizer col-md-6">
+                <figure class="overlay overlay1 rounded mb-15">
+                  <a href="{{lightbox.lightbox_url}}" class="lightbox" data-sub-html=".caption"> 
+                    <img src="{{lightbox.thumbnail}}" alt="{{lightbox.title}}"/>
+                  </a>
+                  <figcaption>
+                    <h5 class="from-top mb-0">{{lightbox.hover_title}}</h5>
+                  </figcaption>
+                </figure>
+                <!-- <h4>{{lightbox.title}}</h4> -->
+                <h4><a href="{{lightbox.url}}">{{lightbox.title}}</a></h4>
+                <div class="caption d-none">
+                  <!-- <h5>{{lightbox.caption_title}}</h5> -->
+                  <!-- <p>{{lightbox.caption_sub_title}}</p> -->
+                </div>
+                <div class="item-content">
+                  <!-- <h2 class="post-title mb-10"><a href="{{lightbox.url}}">{{lightbox.title}}</a></h2> -->
+                  <div class="meta mb-0">{{lightbox.caption_sub_title}}</div>
+                  <div
+                    <p>{{lightbox.years}}</p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+              {% endfor %}
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /.tiles -->
+        </div>
+        <!-- /.grid -->
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.wrapper -->
+  
 <!-- SLIDER AREA START -->
 {% if page.slider_area.enable %}
 <div class="wrapper white-wrapper">
