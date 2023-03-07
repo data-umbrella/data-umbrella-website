@@ -622,44 +622,6 @@ contact_area:
 <!-- /.wrapper -->
 
 
-{% if page.progress_area %}
-<div class="wrapper light-wrapper">
-  <div class="container inner">
-
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-      	{% if page.progress_area.title %}
-        <h2 class="title-color color-gray">{{page.progress_area.title}}</h2>
-        {% endif %}
-        {% if page.progress_area.sub_title %}
-        <h3 class="display-3">{{page.progress_area.sub_title}}</h3>
-        {% endif %}
-      </div>
-      <!--/column -->
-      <div class="space20 d-md-none"></div>
-      <div class="space50 d-none d-md-block d-lg-none"></div>
-      <div class="col-lg-6">
-        <div class="row text-center">
-         {% for list in page.progress_area.lists %}
-          <div class="col-md-6">
-            <div class="progressbar circle {{list.bar_color}}" data-value="{{list.numbers}}"></div>
-            <h5>{{list.title}}</h5>
-            <p>{{list.description}}</p>
-          </div>
-          {% endfor %}
-        </div>
-        <!-- /.row -->
-      </div>
-      <!--/column -->
-    </div>
-    <!--/.row -->
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.wrapper -->
-{% endif %}
-
-
 {% if page.projects_area.enable %}
 <div class="wrapper white-wrapper">
   <div class="container inner pb-50">
