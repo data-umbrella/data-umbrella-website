@@ -23,6 +23,8 @@ slider_area:
 
 portfolios_area:
   enable: true
+  title: "Our Projects"
+  sub_title: ""
   categories:
     - title: "Branding"
       filter: "branding"
@@ -439,6 +441,17 @@ contact_area:
 <div class="wrapper light-wrapper">
   <div class="container inner">
     <div class="grid grid-view boxed">
+      
+      <div class="row">
+        <div class="col-md-7 mx-auto">
+            {% if page.portfolios.title %}
+            <h2 class="title-color color-gray text-center">{{page.portfolios.title}}</h2>
+            {% endif %} {% if page.portfolios.sub_title %}
+            <h3 class="display-3 text-center">{{page.portfolios.sub_title}}</h3>
+            {% endif %}
+        </div>
+    </div>
+
       <div class="isotope-filter text-center">
         <ul>
           <li><a class="button active" data-filter="*">All</a></li>
