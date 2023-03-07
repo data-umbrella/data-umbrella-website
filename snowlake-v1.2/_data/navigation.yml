@@ -23,8 +23,6 @@ main_menu:
         url: "/about/reach"
       - text: "Contact Us"
         url: "/about/contact"
-      - text: "Project List"
-        url: "/about/project_list"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
@@ -91,26 +89,26 @@ main_menu:
   #     - text: "Press"
   #       url: "/in-progress/press"
 
-  - text: "Projects"
-    url: "/projects/"
-    submenu:
-      - text: "Blog"
-        url:  "https://blog.dataumbrella.org/"
+  # - text: "Projects"
+  #   url: "/projects/"
+  #   submenu:
+  #     - text: "Blog"
+  #       url:  "https://blog.dataumbrella.org/"
 
-      - text: "Event Board"
-        url:  "https://events.dataumbrella.org/"
+  #     - text: "Event Board"
+  #       url:  "https://events.dataumbrella.org/"
 
-      - text: "DU-PyMC OS Sprint"
-        url: "https://pymc-data-umbrella.xyz/en/latest/index.html"
+  #     - text: "DU-PyMC OS Sprint"
+  #       url: "https://pymc-data-umbrella.xyz/en/latest/index.html"
         
-      - text: "Job Board"
-        url: "https://jobs.dataumbrella.org/"
+  #     - text: "Job Board"
+  #       url: "https://jobs.dataumbrella.org/"
 
-      - text: "PyLadies Dashboard"
-        url: "https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html"
+  #     - text: "PyLadies Dashboard"
+  #       url: "https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html"
 
-      - text: "DU Impact"
-        url: "https://blog.dataumbrella.org/impact.html"
+  #     - text: "DU Impact"
+  #       url: "https://blog.dataumbrella.org/impact.html"
 
   - text: "Resources"
     url: "/resources/"
