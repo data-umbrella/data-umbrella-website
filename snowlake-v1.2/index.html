@@ -277,76 +277,7 @@ contact_area:
 <div class="content-wrapper">
 {% include header.html extra_class="absolute transparent" logo_class="logo" container_class="container" %}
 
-<!-- LIGHTBOX TEMPLATE START (Sponsors)-->
-<div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{page.page_header.background_image}}">
-  <div class="container inner text-center">
-    <div class="space90"></div>
-    {% if page.page_header.title %}
-     <h1 class="page-title">{{page.page_header.title}}</h1>
-    {% endif %}
-    {% if page.page_header.sub_title %}
-     <p class="lead">{{page.page_header.sub_title}}</p>
-    {% endif %}
-  </div>
-  <!-- /.container -->
-</div>
-<div class="isotope-filter text-center">
-  <br>
-  <br>
- <h4>
-  If you would like to support Data Umbrella, visit
-<a href="https://opencollective.com/data-umbrella"> our Collective </a>or email us at info at dataumbrella dot org.  
-</h4>
-</div>
-<!-- /.wrapper -->
-<div class="wrapper light-wrapper">
-  <div class="container inner">
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <div class="grid text-center light-gallery-wrapper">
-          <div class="tiles">
-            <div class="isotope row">
-             {% for lightbox in page.lightbox_area.lightboxes %}
-              <div class="item grid-sizer col-md-6">
-                <figure class="overlay overlay1 rounded mb-15">
-                  <a href="{{lightbox.lightbox_url}}" class="lightbox" data-sub-html=".caption"> 
-                    <img src="{{lightbox.thumbnail}}" alt="{{lightbox.title}}"/>
-                  </a>
-                  <figcaption>
-                    <h5 class="from-top mb-0">{{lightbox.hover_title}}</h5>
-                  </figcaption>
-                </figure>
-                <!-- <h4>{{lightbox.title}}</h4> -->
-                <h4><a href="{{lightbox.url}}">{{lightbox.title}}</a></h4>
-                <div class="caption d-none">
-                  <!-- <h5>{{lightbox.caption_title}}</h5> -->
-                  <!-- <p>{{lightbox.caption_sub_title}}</p> -->
-                </div>
-                <div class="item-content">
-                  <!-- <h2 class="post-title mb-10"><a href="{{lightbox.url}}">{{lightbox.title}}</a></h2> -->
-                  <div class="meta mb-0">{{lightbox.caption_sub_title}}</div>
-                  <div
-                    <p>{{lightbox.years}}</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-              {% endfor %}
-            </div>
-            <!--/.row -->
-          </div>
-          <!-- /.tiles -->
-        </div>
-        <!-- /.grid -->
-      </div>
-      <!-- /column -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.wrapper -->
-  
+ 
 <!-- SLIDER AREA START -->
 {% if page.slider_area.enable %}
 <div class="wrapper white-wrapper">
@@ -455,6 +386,68 @@ contact_area:
 {% endif %}
 <!-- SLIDER AREA STOP -->
 
+<!-- LIGHTBOX TEMPLATE START (Sponsors)-->
+<div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{page.page_header.background_image}}">
+  <div class="container inner text-center">
+    <div class="space90"></div>
+    {% if page.page_header.title %}
+     <h1 class="page-title">{{page.page_header.title}}</h1>
+    {% endif %}
+    {% if page.page_header.sub_title %}
+     <p class="lead">{{page.page_header.sub_title}}</p>
+    {% endif %}
+  </div>
+  <!-- /.container -->
+</div>
+
+<!-- /.wrapper -->
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="grid text-center light-gallery-wrapper">
+          <div class="tiles">
+            <div class="isotope row">
+             {% for lightbox in page.lightbox_area.lightboxes %}
+              <div class="item grid-sizer col-md-6">
+                <figure class="overlay overlay1 rounded mb-15">
+                  <a href="{{lightbox.lightbox_url}}" class="lightbox" data-sub-html=".caption"> 
+                    <img src="{{lightbox.thumbnail}}" alt="{{lightbox.title}}"/>
+                  </a>
+                  <figcaption>
+                    <h5 class="from-top mb-0">{{lightbox.hover_title}}</h5>
+                  </figcaption>
+                </figure>
+                <!-- <h4>{{lightbox.title}}</h4> -->
+                <h4><a href="{{lightbox.url}}">{{lightbox.title}}</a></h4>
+                <div class="caption d-none">
+                  <!-- <h5>{{lightbox.caption_title}}</h5> -->
+                  <!-- <p>{{lightbox.caption_sub_title}}</p> -->
+                </div>
+                <div class="item-content">
+                  <!-- <h2 class="post-title mb-10"><a href="{{lightbox.url}}">{{lightbox.title}}</a></h2> -->
+                  <div class="meta mb-0">{{lightbox.caption_sub_title}}</div>
+                  <div
+                    <p>{{lightbox.years}}</p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+              {% endfor %}
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /.tiles -->
+        </div>
+        <!-- /.grid -->
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.wrapper -->
 
 <!-- TWO COLUMNS ONE START -->
     {% if page.two_columns_one.enable %}
