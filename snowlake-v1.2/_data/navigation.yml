@@ -57,7 +57,7 @@ main_menu:
   #       url: "/portfolios/index-8b" 
 
   - text: "Open Source"
-    url: "/open-source/"
+    url: "/open-source/sprint_reports"
     submenu:
       - text: "Open Source Sprints"
         url: "/open-source/sprint_list"
@@ -69,7 +69,7 @@ main_menu:
         url: "/open-source/contributing-to-cpython"
         
   - text: "Get Involved"
-    url: "/"
+    url: "/get-involved/contribution"
     submenu:
       - text: "Contribute to Data Umbrella"
         url: "/get-involved/contribution"
