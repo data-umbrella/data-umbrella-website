@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Communities"
+date: 2023-03-10 20:37:13 +0600
+author: "Reshama Shaikh"
+post_image: "/assets/images/data-umbrella/about/press.png"
+badge_color: "bg-purple"
+categories: [diversity, communities]
+slider_post: true
+---
+
+<!-- begin page -->
+<div class="container animate">
+  <article class="page">
+    <div class="page__content">
+
+Follow our Twitter list:  URG Communities"><meta itemprop="name" content="Data Umbrella - Communities"><meta itemprop="description" content="
+Follow our Twitter list:  URG Communities"><meta itemprop="url" content="https://www.dataumbrella.org/accessibility/communities">
+
+
+<div>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKayRDvj4S10V9kHa_1arJU3aQ_pN5owSIOPAxdSb0nHCBOyEHdlWLCzKei8Ti4_q7mAbB5ldQZOKc/pubhtml?widget=true&amp;headers=false"></iframe>
+</div>
+
+
+  </div>
+  </article>
+</div>
+<!-- end page -->
