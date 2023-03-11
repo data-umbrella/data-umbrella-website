@@ -75,15 +75,18 @@ main_menu:
         url: "/get-involved/contribution"
       - text: "Volunteer"
         url: "/get-involved/volunteer"
-        
-  - text: "Blog"
-    url: "/blogs/"
-    submenu:
-      - text: "Blog 02"
-        url: "/blogs/index-2"
 
-      - text: "Press: test page"
-        url: "/blogs/press"
+   - text: "Blog"
+    url: "/"
+    submenu:
+      - text: "Blog 01"
+        url: "/blogs/index"
+
+      # - text: "Blog 02"
+      #   url: "/blogs/index-2"
+
+      # - text: "Press: test page"
+      #   url: "/blogs/press"
 
   # - text: "[In progress]"
   #   url: "/in-progress/"
