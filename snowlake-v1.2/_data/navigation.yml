@@ -79,8 +79,8 @@ main_menu:
   - text: "Blog"
     url: "blogs/"
     submenu:
-      - text: "Blog"
-        url: "/blogs/index"
+      # - text: "Blog"
+      #   url: "/blogs/index"
       - text: "Blog-2"
         url: "/blogs/index-2"
 

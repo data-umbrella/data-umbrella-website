@@ -9,11 +9,6 @@ categories: [diversity]
 slider_post: true
 ---
 
-
-<p>
-Follow our Twitter list:  [URG Communities](https://www.dataumbrella.org/accessibility/communities)
-</p>
-
 <p>
 Follow our Twitter list:  
 <a href="https://www.dataumbrella.org/accessibility/communities">URG Communities</a>
@@ -21,10 +16,11 @@ Follow our Twitter list:
 
 <div class="space50"></div>
 <h3>Affinity Communities</h3>
-<div>
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKayRDvj4S10V9kHa_1arJU3aQ_pN5owSIOPAxdSb0nHCBOyEHdlWLCzKei8Ti4_q7mAbB5ldQZOKc/pubhtml?widget=true&amp;headers=false" width="1000" height="650"style="border:0px;" frameborder="0" scrolling="no")></iframe>
-</div>
-
+ 
+<p>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKayRDvj4S10V9kHa_1arJU3aQ_pN5owSIOPAxdSb0nHCBOyEHdlWLCzKei8Ti4_q7mAbB5ldQZOKc/pubhtml?widget=true&amp;headers=false" width="1000" height="650"style="border:1px;" frameborder="1" scrolling="no")></iframe>
+</p>
+ 
 
 
 
