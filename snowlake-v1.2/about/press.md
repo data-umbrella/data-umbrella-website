@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "The Best Moments in Venice"
-date: 2021-09-15 20:37:13 +0600
-author: "Tortoiz Themes"
-post_image: "/assets/images/art/tb1.jpg"
+title: "Data Umbrella: Press"
+date: 2023-03-10 20:37:13 +0600
+author: "Reshama Shaikh"
+post_image: "/assets/images/data-umbrella/about/press.png"
 badge_color: "bg-purple"
 categories: [places]
 slider_post: true
