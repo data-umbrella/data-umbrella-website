@@ -76,7 +76,7 @@ main_menu:
       - text: "Volunteer"
         url: "/get-involved/volunteer"
 
-   - text: "Blog"
+  - text: "Blog"
     url: "/"
     submenu:
       - text: "Blog 01"
