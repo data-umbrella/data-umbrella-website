@@ -9,6 +9,18 @@ categories: [diversity]
 slider_post: true
 ---
 
+
+<p>
+Follow our Twitter list:  [URG Communities](https://www.dataumbrella.org/accessibility/communities)
+</p>
+
+<p>
+Follow our Twitter list:  
+<a href="https://www.dataumbrella.org/accessibility/communities">URG Communities</a>
+</p>
+
+
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
@@ -22,10 +34,7 @@ Jekyll requires blog post files to be named according to the following format:
   <article class="page">
     <div class="page__content">
 
-<p>
-Follow our Twitter list:  URG Communities"><meta itemprop="name" content="Data Umbrella - Communities"><meta itemprop="description" content="
-Follow our Twitter list:  URG Communities"><meta itemprop="url" content="https://www.dataumbrella.org/accessibility/communities">
-</p>
+
 
 <div class="space50"></div>
 <h3>Affinity Communities</h3>
