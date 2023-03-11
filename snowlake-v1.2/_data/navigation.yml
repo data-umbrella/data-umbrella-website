@@ -120,7 +120,7 @@ main_menu:
       - sub_menu_text: "Diversity"
         sub_menu:
           - text: "Communities"
-            url: "/resources/communities.md"
+            url: "/resources/communities"
 
           - text: "Resource 05"
             url: "/resources/resource-5"
