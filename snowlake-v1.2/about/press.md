@@ -20,13 +20,13 @@ slider_post: true
 
 <p><em>Groups like Outreachy, Data Umbrella, and PyLadies are all great examples of communities of practice that specialize in promoting and supporting underrepresented groups. Local communities of practice are also important: They have cultural, geographic, and human language expertise that can make open source interactions more welcoming for new participants from the area.</em></p>
 
-<h2 id="data-umbrella-receives-mention-in-diversity-in-action-magazine-oct-2022">Data Umbrella receives mention in <a href="/assets/images/data-umbrella/about/diversity_in_action.png">Diversity in Action</a> magazine (Oct 2022)</h2>
+<h2 id="data-umbrella-receives-mention-in-diversity-in-action-magazine-oct-2022">Data Umbrella receives mention in <a href="assets/images/data-umbrella/about/diversity_in_action.png">Diversity in Action</a> magazine (Oct 2022)</h2>
 
 <p><a href="https://www.linkedin.com/in/pollymitchellguthrie/">Polly Mitchell-Guthrie</a>, a community member and a long-time proponent of diversity, was interviewed by the magazine <a href="https://mydigitalpublication.com/publication/?m=46265&amp;i=763269&amp;p=58&amp;ver=html5">Diversity in Action</a> on her career in data analytics.  She shared Data Umbrella as a community which supports underrepresented persons. The full article is available on pages 56 and 57.</p>
 
 <p float="left">
    <a href="https://mydigitalpublication.com/publication/?m=46265&amp;i=763269&amp;p=58&amp;ver=html5">
-  <img src="../images/press/diversity_in_action.png" width="80%" height="80%" style="border:0px;margin:0px" />
+  <img src="/assets/images/data-umbrella/about/diversity_in_action.png" width="80%" height="80%" style="border:0px;margin:0px" />
 </a>
 </p>
 
@@ -34,7 +34,7 @@ slider_post: true
 
 <p>Data Umbrella, a Code for Science and Society Event Fund grantee, has been awarded a grant by the <a href="https://chanzuckerberg.com/">Chan Zuckerberg Initiative</a> as part of CZI Science efforts to support <a href="https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b">diversity and inclusion in computational science</a>.</p>
 
-<h3 id="announcing-the-new-cohort-of-event-fund-grantees-sep-2021"><a href="https://eventfund.codeforscience.org/announcing-the-new-cohort-of-event-fund-grantees/">Announcing the New Cohort of Event Fund Grantees!</a> (Sep 2021)</h3>
+<h3 id="announcing-the-new-cohort-of-event-fund-grantees-sep-2021"><a href="https://eventfund.codeforscience.org/announcing-the-new-cohort-of-event-fund-grantees/">Code for Science & Society: Announcing the New Cohort of Event Fund Grantees!</a> (Sep 2021)</h3>
 
 <p>Data Umbrella receives an event fund grant to increase the participation of underrepresented persons in data science, open source, and Python from the regions of <a href="https://afme2021rc.dataumbrella.org/home">Africa and the Middle East</a>.</p>
 
