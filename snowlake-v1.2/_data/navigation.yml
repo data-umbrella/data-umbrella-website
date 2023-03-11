@@ -96,12 +96,15 @@ main_menu:
   #     - text: "Press"
   #       url: "/in-progress/press"
 
-  - text: "blog.dataumbrella.org"
+  - text: "[Blog]"
     url: "https://blog.dataumbrella.org/"
     # submenu:
     #   - text: "Blog"
     #     url:  "https://blog.dataumbrella.org/"
 
+  - text: "[Event Board]"
+    url: "https://events.dataumbrella.org/"
+ 
   #     - text: "Event Board"
   #       url:  "https://events.dataumbrella.org/"
 
