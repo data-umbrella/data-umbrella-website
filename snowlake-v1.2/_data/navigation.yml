@@ -23,6 +23,8 @@ main_menu:
         url: "/about/reach"
       - text: "Contact Us"
         url: "/about/contact"
+      - text: "Press"
+        url: "/about/press"
 
   # - text: "Portfolio"
   #   url: "/portfolios/"
