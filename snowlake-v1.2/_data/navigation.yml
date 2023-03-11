@@ -96,7 +96,7 @@ main_menu:
   #     - text: "Press"
   #       url: "/in-progress/press"
 
-  - text: "DU Blog"
+  - text: "blog.dataumbrella.org"
     url: "https://blog.dataumbrella.org/"
     # submenu:
     #   - text: "Blog"
