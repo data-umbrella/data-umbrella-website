@@ -83,7 +83,8 @@ main_menu:
       #   url: "/blogs/index"
       - text: "Resources"
         url: "/blogs/index-2"
-
+      - text: "Accessibility"
+        url: "https://dev.dataumbrella.org/category/accessibility/"
       # - text: "Blog 02"
       #   url: "/blogs/index-2"
 
