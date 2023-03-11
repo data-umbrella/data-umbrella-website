@@ -29,7 +29,7 @@ slider_post: true
 
 <p float="left">
    <a href="https://mydigitalpublication.com/publication/?m=46265&amp;i=763269&amp;p=58&amp;ver=html5">
-  <img src="/assets/images/data-umbrella/about/diversity_in_action.png" width="80%" height="80%" style="border:0px;margin:0px" />
+  <img src="/assets/images/data-umbrella/about/diversity_in_action.png" width="60%" height="60%" style="border:0px;margin:0px" />
 </a>
 </p>
 
@@ -39,12 +39,12 @@ slider_post: true
 <p>Data Umbrella, a Code for Science and Society Event Fund grantee, has been awarded a grant by the <a href="https://chanzuckerberg.com/">Chan Zuckerberg Initiative</a> as part of CZI Science efforts to support <a href="https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b">diversity and inclusion in computational science</a>.</p>
 
 <h2 id="announcing-the-new-cohort-of-event-fund-grantees-sep-2021">Code for Science & Society: <a href="https://eventfund.codeforscience.org/announcing-the-new-cohort-of-event-fund-grantees/">Announcing the New Cohort of Event Fund Grantees!</a></h2>
-<h3>(Sep 2021)</h3>
+<h4>(Sep 2021)</h4>
 
 <p>Data Umbrella receives an event fund grant to increase the participation of underrepresented persons in data science, open source, and Python from the regions of <a href="https://afme2021rc.dataumbrella.org/home">Africa and the Middle East</a>.</p>
 
 <h2 id="announcing-the-inaugural-cohort-of-event-fund-grantees-jan-2021">Code for Science & Society: <a href="https://eventfund.codeforscience.org/announcing/">Announcing the Inaugural Cohort of Event Fund Grantees!</a></h2>
-<h3>(Jan 2021) </h3>
+<h4>(Jan 2021) </h4>
 
 <p>Data Umbrella receives a grant for two sprints to increase the participation of underrepresented persons in data science, open source, and Python from the regions of <a href="https://afme2021.dataumbrella.org/home">Africa, the Middle East</a> and <a href="https://latam2021.dataumbrella.org/home">Latin America</a>.</p>
 
