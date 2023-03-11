@@ -436,14 +436,24 @@ contact_area:
 {% endif %}
 <!-- SLIDER AREA STOP -->
 
+
 <!-- LIGHTBOX TEMPLATE START (Sponsors)-->
 {% if page.portfolios_area.enable %}
 <div class="wrapper light-wrapper">
   <div class="container inner">
     <div class="grid grid-view boxed">
-      
+
       <div class="row">
         <div class="col-md-7 mx-auto">
+
+            <!-- start gif -->
+            <div align="center">
+              <img src="/assets/images/data-umbrella/du-logos/data_umbrella_seasons.gif" 
+     height="33%" width="33%"
+     align="center"/>
+              </div>
+              <div class="space60"></div>
+
             {% if page.portfolios_area.title %}
             <h2 class="title-color color-gray text-center">{{page.portfolios_area.title}}</h2>
             {% endif %} {% if page.portfolios_area.sub_title %}
@@ -508,7 +518,7 @@ contact_area:
                 {% endif %}
             </div>
         </div>
-        <div class="space40"></div>
+        <div class="space5"></div>
         <div class="row align-items-xl-center">
             {% if page.two_columns_one.image %}
             <div class="col-lg-7">
@@ -808,11 +818,13 @@ contact_area:
           	<div class="col-md-8">
 		       <h2 class="section-title">Newsletter Sign-up</h2>
 		       <p class="lead larger">Sign up for monthly news and announcements.</p>
-          	</div>
+           <p> <a href="https://dataumbrella.substack.com/archive">Data Umbrella Newsletter Archives</a> 
+           </p>  	
+          </div>
           </div>
 
           <div padding=20px background-color=#cedddd float="left">
-            <iframe src="https://dataumbrella.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://dataumbrella.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:rgb(217, 204, 243);" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
 
