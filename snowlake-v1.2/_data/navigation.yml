@@ -77,7 +77,7 @@ main_menu:
         url: "/get-involved/volunteer"
 
   - text: "Resources"
-    url: "blogs/index-2"
+    url: "/"
     submenu:
       # - text: "Blog"
       #   url: "/blogs/index"
