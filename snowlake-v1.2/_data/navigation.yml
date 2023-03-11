@@ -102,7 +102,7 @@ main_menu:
     #   - text: "Blog"
     #     url:  "https://blog.dataumbrella.org/"
 
-  - text: "[Event Board]"
+  - text: "[Events Board]"
     url: "https://events.dataumbrella.org/"
  
   #     - text: "Event Board"
