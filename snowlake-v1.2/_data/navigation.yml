@@ -57,7 +57,7 @@ main_menu:
   #       url: "/portfolios/index-8b" 
 
   - text: "Open Source"
-    url: "/open-source/"
+    url: "/open-source/sprint_reports"
     submenu:
       - text: "Open Source Sprints"
         url: "/open-source/sprint_list"
@@ -69,19 +69,19 @@ main_menu:
         url: "/open-source/contributing-to-cpython"
         
   - text: "Get Involved"
-    url: "/"
+    url: "/get-involved/contribution"
     submenu:
       - text: "Contribute to Data Umbrella"
         url: "/get-involved/contribution"
       - text: "Volunteer"
         url: "/get-involved/volunteer"
 
-  - text: "Blog"
-    url: "blogs/"
+  - text: "Resources"
+    url: "/blogs/index-2"
     submenu:
       # - text: "Blog"
       #   url: "/blogs/index"
-      - text: "Blog-2"
+      - text: "Resources"
         url: "/blogs/index-2"
 
       # - text: "Blog 02"
@@ -96,11 +96,11 @@ main_menu:
   #     - text: "Press"
   #       url: "/in-progress/press"
 
-  # - text: "Projects"
-  #   url: "/projects/"
-  #   submenu:
-  #     - text: "Blog"
-  #       url:  "https://blog.dataumbrella.org/"
+  - text: "blog.dataumbrella.org"
+    url: "https://blog.dataumbrella.org/"
+    # submenu:
+    #   - text: "Blog"
+    #     url:  "https://blog.dataumbrella.org/"
 
   #     - text: "Event Board"
   #       url:  "https://events.dataumbrella.org/"
@@ -117,46 +117,46 @@ main_menu:
   #     - text: "DU Impact"
   #       url: "https://blog.dataumbrella.org/impact.html"
 
-  - text: "Resources"
-    url: "/resources/"
-    menu_type: "dropdown"
+  # - text: "Resources"
+  #   url: "/resources/"
+  #   menu_type: "dropdown"
 
-    label_two:
-      - sub_menu_text: "Diversity"
-        sub_menu:
-          - text: "Communities"
-            url: "/resources/communities"
+  #   label_two:
+  #     - sub_menu_text: "Diversity"
+  #       sub_menu:
+  #         - text: "Communities"
+  #           url: "/resources/communities"
 
-          - text: "Resource 05"
-            url: "/resources/resource-5"
+  #         - text: "Resource 05"
+  #           url: "/resources/resource-5"
 
-      - sub_menu_text: "Open Source"
-        sub_menu:
-          - text: "Resource 01"
-            url: "/resources/index"
+  #     - sub_menu_text: "Open Source"
+  #       sub_menu:
+  #         - text: "Resource 01"
+  #           url: "/resources/index"
 
-          - text: "Resource 02"
-            url: "/resources/resource-2"
+  #         - text: "Resource 02"
+  #           url: "/resources/resource-2"
 
-          - text: "Resource 03"
-            url: "/resources/resource-3"
+  #         - text: "Resource 03"
+  #           url: "/resources/resource-3"
  
-      - sub_menu_text: "Accessibility"
-        sub_menu:
-          - text: "Resource 04"
-            url: "/resources/resource-4"
+  #     - sub_menu_text: "Accessibility"
+  #       sub_menu:
+  #         - text: "Resource 04"
+  #           url: "/resources/resource-4"
 
-          - text: "Resource 05"
-            url: "/resources/resource-5"
-    submenu:
-      - text: "Resource 06"
-        url: "/resources/resource-6"
+  #         - text: "Resource 05"
+  #           url: "/resources/resource-5"
+  #   submenu:
+  #     - text: "Resource 06"
+  #       url: "/resources/resource-6"
 
-      - text: "Resource 07"
-        url: "/resources/resource-7"
+  #     - text: "Resource 07"
+  #       url: "/resources/resource-7"
       
-      - text: "Resource 08"
-        url: "/resources/resource-8"
+  #     - text: "Resource 08"
+  #       url: "/resources/resource-8"
 
   # - text: "News"
   #   url: "/news/"
