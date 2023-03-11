@@ -5,7 +5,7 @@ date: 2023-03-10 20:37:13 +0600
 author: "Reshama Shaikh"
 post_image: "/assets/images/data-umbrella/about/press.png"
 badge_color: "bg-purple"
-categories: [places]
+categories: [news]
 slider_post: true
 ---
 
