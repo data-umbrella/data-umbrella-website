@@ -81,6 +81,8 @@ main_menu:
     submenu:
       - text: "Blog"
         url: "/blogs/index"
+      - text: "Blog-2"
+        url: "/blogs/index-2"
 
       # - text: "Blog 02"
       #   url: "/blogs/index-2"
