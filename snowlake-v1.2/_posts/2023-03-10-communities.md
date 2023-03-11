@@ -19,6 +19,13 @@ Follow our Twitter list:
 <a href="https://www.dataumbrella.org/accessibility/communities">URG Communities</a>
 </p>
 
+<div class="space50"></div>
+<h3>Affinity Communities</h3>
+<div>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKayRDvj4S10V9kHa_1arJU3aQ_pN5owSIOPAxdSb0nHCBOyEHdlWLCzKei8Ti4_q7mAbB5ldQZOKc/pubhtml?widget=true&amp;headers=false" width="1000" height="650"style="border:0px;" frameborder="0" scrolling="no")></iframe>
+</div>
+
+
 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
