@@ -9,14 +9,31 @@ categories: [news]
 slider_post: true
 ---
 
-<p>11 time-saving pro tips for web designers working in Webflow11 <a href="#">time-saving pro</a> tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper semper ridiculus, accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium, id facere atque eum! sit nonummy tellus velit vivamus, eu sagittis gravida ut ante. Ut voluptas vestibulum leo pellentesque nulla, taciti congue, vitae nunc metus, imperdiet orci neque sed vestibulum, vestibulum magna ullamcorper posuere massa interdum </p>
-<h4>Risus sociis urna elementum ultricies justo quisque </h4> <p> mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor </p>
-<blockquote class="blockquote single-quote">
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo non labore totam tempora sed neque repellat numquam eaque inventore! Iusto saepe ipsum, ex, commodi asperiores iure dolores amet dolorem eos voluptatum, aliquid incidunt non perferendis earum dignissimos quod iste accusantium deleniti.Risus sociis urna elementum ultricies justo quisque, mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet </p>
-</blockquote>
-<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-<p>eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget</p>
+### Data Umbrella receives mention in PLOS Journal: [Ten simple rules for funding scientific open source software](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010627) (Nov 2022)
 
-Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium
+This article was recently published in the PLOS Journal by funders at CZI and the Sloan Foundation.  Data Umbrella received a mention in there for community building:  
 
-<b>augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentiumaugue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium  </b>
+*Groups like Outreachy, Data Umbrella, and PyLadies are all great examples of communities of practice that specialize in promoting and supporting underrepresented groups. Local communities of practice are also important: They have cultural, geographic, and human language expertise that can make open source interactions more welcoming for new participants from the area.*
+
+
+### Data Umbrella receives mention in [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) magazine (Oct 2022)
+
+[Polly Mitchell-Guthrie](https://www.linkedin.com/in/pollymitchellguthrie/), a community member and a long-time proponent of diversity, was interviewed by the magazine [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) on her career in data analytics.  She shared Data Umbrella as a community which supports underrepresented persons. The full article is available on pages 56 and 57.
+
+<p float="left">
+   <a href="https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5">
+  <img src="../images/press/diversity_in_action.png" width="80%" height="80%" style="border:0px;margin:0px">
+</a>
+</p>
+
+### [Data Umbrella, an Event Fund Grantee, Awarded CZI Grant](https://eventfund.codeforscience.org/data-umbrella-awarded-czi-grant/) (Oct 2021)
+
+Data Umbrella, a Code for Science and Society Event Fund grantee, has been awarded a grant by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) as part of CZI Science efforts to support [diversity and inclusion in computational science](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b). 
+
+### [Announcing the New Cohort of Event Fund Grantees!](https://eventfund.codeforscience.org/announcing-the-new-cohort-of-event-fund-grantees/) (Sep 2021)
+
+Data Umbrella receives an event fund grant to increase the participation of underrepresented persons in data science, open source, and Python from the regions of [Africa and the Middle East](https://afme2021rc.dataumbrella.org/home). 
+ 
+### [Announcing the Inaugural Cohort of Event Fund Grantees!](https://eventfund.codeforscience.org/announcing/) (Jan 2021)
+
+Data Umbrella receives a grant for two sprints to increase the participation of underrepresented persons in data science, open source, and Python from the regions of [Africa, the Middle East](https://afme2021.dataumbrella.org/home) and [Latin America](https://latam2021.dataumbrella.org/home). 
