@@ -117,6 +117,14 @@ main_menu:
     menu_type: "dropdown"
 
     label_two:
+      - sub_menu_text: "Diversity"
+        sub_menu:
+          - text: "Communities"
+            url: "/resources/communities.md"
+
+          - text: "Resource 05"
+            url: "/resources/resource-5"
+
       - sub_menu_text: "Open Source"
         sub_menu:
           - text: "Resource 01"
