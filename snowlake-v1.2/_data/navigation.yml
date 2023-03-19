@@ -67,6 +67,8 @@ main_menu:
         url: "/open-source/contributing-to-scikit-learn"
       - text: "Contributing to Core Python"
         url: "/open-source/contributing-to-cpython"
+      - text: "Contributing to PyMC"
+        url: "/open-source/contributing-to-pymc"
         
   - text: "Get Involved"
     url: "/get-involved/contribution"
