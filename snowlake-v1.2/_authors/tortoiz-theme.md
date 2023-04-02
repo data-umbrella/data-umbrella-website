@@ -1,6 +1,6 @@
 ---
 layout: author_page
-title: "Tortoiz Theme"
+title: "Resources"
 sub_title: "About the Author"
 image: "/assets/images/data-umbrella/du-logos/data_umbrella_seasons.gif"
 primary_author: true
