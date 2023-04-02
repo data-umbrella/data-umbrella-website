@@ -1,5 +1,5 @@
 # About
-Welcome! Data Umbrella is building a new website. We are slowly transferring content from our current website which is hosted using Google Sites (https://events.dataumbrella.org/) to this website-in-progress (https://dev.dataumbrella.org/).
+Welcome! Data Umbrella is building a new website. We are slowly transferring content from our current website which is hosted using Google Sites (https://www.dataumbrella.org/) to this website-in-progress (https://dev.dataumbrella.org/).
 
 ## Skills 
 A background in any of these skills will enable you to contribute:  
