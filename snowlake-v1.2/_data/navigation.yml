@@ -26,36 +26,6 @@ main_menu:
       - text: "Press"
         url: "/about/press"
 
-  # - text: "Portfolio"
-  #   url: "/portfolios/"
-  #   submenu:
-  #     - text: "Portfolio 01"
-  #       url: "/portfolios/index"
-
-  #     - text: "Portfolio 02"
-  #       url: "/portfolios/index-2"
-
-  #     - text: "Portfolio 03"
-  #       url: "/portfolios/index-3"
-
-  #     - text: "Portfolio 04"
-  #       url: "/portfolios/index-4"
-
-  #     - text: "Portfolio 05"
-  #       url: "/portfolios/index-5"
-
-  #     - text: "Portfolio 06"
-  #       url: "/portfolios/index-6"
-
-  #     - text: "Portfolio 07"
-  #       url: "/portfolios/index-7"    
- 
-  #     - text: "Portfolio 08"
-  #       url: "/portfolios/index-8"
- 
-  #     - text: "Portfolio 08b"
-  #       url: "/portfolios/index-8b" 
-
   - text: "Open Source"
     url: "/open-source/sprint_reports"
     submenu:
@@ -69,7 +39,6 @@ main_menu:
         url: "/open-source/contributing-to-pymc"
       - text: "Contributing to Core Python"
         url: "/open-source/contributing-to-cpython"
-
         
   - text: "Get Involved"
     url: "/get-involved/contribution"
