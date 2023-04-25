@@ -15,8 +15,23 @@ slider_post: true
     <div class="page__content">
 
 
-<h2 id="data-umbrella-receives-mention-in-plos-journal-ten-simple-rules-for-funding-scientific-open-source-software-nov-2022">Data Umbrella receives mention in PLOS Journal: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010627">Ten simple rules for funding scientific open source software</a></h2>
-<h4>(Nov 2022)</h4>
+<h2 id="data-umbrella-receives-mention-in-plos-journal-ten-simple-rules-for-funding-scientific-open-source-software-nov-2022">Data Umbrella receives mention in Gordon and Betty Moore Foundation article: <a href="https://www.moore.org/article-detail?newsUrlName=cultivating-and-connecting-global-data-science-communities">Cultivating and connecting global data science communities</a>
+</h2>
+<h5>(Apr 14, 2023)
+</h5>
+
+<p>This article was recently published by the Moore Foundation. Data Umbrella received a mention in there for our open source sprints:</p>
+
+<p><em>Through this program, funders and grantees alike have been able to expand their global reach. To date, the Event Fund has awarded over $525,000 to three cohorts of grantees from 27 different countries. Examples include:
+
+Data Umbrella works to increase participation of underrepresented persons in data science, open sources and Python from the regions of Africa, the Middle East and South Asia. With the Event Fund support, Data Umbrella hosted scikit-learn sprints for those in Latin America, Africa, and the Middle East towards expanding their community and contributing to their software sustainability.</em></p>
+
+
+
+<h2 id="data-umbrella-receives-mention-in-plos-journal-ten-simple-rules-for-funding-scientific-open-source-software-nov-2022">Data Umbrella receives mention in PLOS Journal: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010627">Ten simple rules for funding scientific open source software</a>
+</h2>
+<h4>(Nov 2022)
+</h4>
 
 <p>This article was recently published in the PLOS Journal by funders at CZI and the Sloan Foundation.  Data Umbrella received a mention in there for community building:</p>
 
