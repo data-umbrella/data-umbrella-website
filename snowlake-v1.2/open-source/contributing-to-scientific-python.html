@@ -1,0 +1,132 @@
+---
+layout: page
+title: "Contributing to Scientific Python"
+sub_title: "How to get started in contributing"
+black_menu: true
+header_style: 'one'
+
+portfolio_area:
+  categories:
+
+    - title: "contributing"
+      filter: "contributing"
+
+    - title: "numpy"
+      filter: "numpy"
+
+  portfolios:
+
+    - title: "Intro to NumPy Array Operations"
+      sub_title: "numpy"
+      sm_img: "/assets/images/data-umbrella/pymc/numpy-operations.png"
+      big_img: "/assets/images/data-umbrella/pymc/numpy-operations.png"
+      url: "https://youtu.be/oud3Jd1FJ7c"
+      resource: "Resources"
+      resource_url: "https://pymc-data-umbrella.xyz/en/latest/about/intro_to_array_operations/index.html"
+      filters:
+        - numpy
+
+    - title: "Contributing to SciPy"
+      sub_title: "contributing"
+      sm_img: "/assets/images/data-umbrella/scientific-python/contributing-to-scipy.png"
+      big_img: "/assets/images/data-umbrella/scientific-python/contributing-to-scipy.png"
+      url: "https://youtu.be/V1FCSijy460"
+      resource: "Slides"
+      resource_url: "https://hackmd.io/@melissawm/rJZKaomD5#/"
+      filters:
+        - contributing
+
+    - title: "How You Can Contribute to pandas"
+      sub_title: "contributing"
+      sm_img: "/assets/images/data-umbrella/scientific-python/contributing-to-pandas.png"
+      big_img: "/assets/images/data-umbrella/scientific-python/contributing-to-pandas.png"
+      url: "https://youtu.be/zI4l1lfggzU"
+      resource: "Slides"
+      resource_url: "https://docs.google.com/presentation/d/1L8uHtgZlpZOnzVjtUYDNZRGoORBQk15sfjOHUWAOugY/edit?usp=sharing"
+      filters:
+        - contributing 
+
+    - title: "NumPy: Its History, Governance & How to Contribute"
+      sub_title: "numpy"
+      sm_img: "/assets/images/data-umbrella/scientific-python/matti-numpy.png"
+      big_img: "/assets/images/data-umbrella/scientific-python/matti-numpy.png"
+      url: "https://youtu.be/lHJqOE5j6xE"
+      resource: "Resources"
+      resource_url: "https://github.com/numpy/archive/blob/main/content/data_umbrella_dec_2_2020/data_umbrella.ipynb"
+      filters:
+        - numpy
+        - contributing
+
+    - title: "Software Testing in Open Source and Data Science"
+      sub_title: "contributing"
+      sm_img: "/assets/images/data-umbrella/scientific-python/software-testing.png"
+      big_img: "/assets/images/data-umbrella/scientific-python/software-testing.png"
+      url: "https://youtu.be/bJGgVoV4GTc"
+      resource: "Slides"
+      resource_url: "https://ericmjl.github.io/software-testing-open-source-and-data-science/talk.html#/"
+      filters:
+        - contributing 
+
+    - title: "Contributing to ArviZ and Open Source"
+      sub_title: "contributing"
+      sm_img: "/assets/images/data-umbrella/pymc/arviz-contrib.png"
+      big_img: "/assets/images/data-umbrella/pymc/arviz-contrib.png"
+      url: "https://youtu.be/457ZTes4xOI"
+      resource: "Resources"
+      resource_url: "https://python.arviz.org/en/0.14.0/index.html"
+      filters:
+        - contributing 
+---
+
+
+<div class="isotope-filter text-center">
+  <br>
+  <br>
+<!-- <h3 class="section-title mb-40 text-center> -->
+ <h4>
+  We have extensive resources on Contributing to Scientific Python.  
+</h4>
+</div>
+
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="grid grid-view">
+      <div class="isotope-filter text-center">
+        <ul>
+          <li><a class="button active" data-filter="*">All</a></li>
+          {% for category in page.portfolio_area.categories %}
+           <li><a class="button" data-filter=".{{category.filter}}">{{category.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+      <div class="tiles">
+        <div class="row isotope light-gallery-wrapper">
+          {% for portfolio in page.portfolio_area.portfolios %}
+          <div class="item item-detailed grid-sizer col-md-6 col-lg-4 {% for filter in portfolio.filters %} {{filter}} {% endfor %}">
+            <figure class="rounded mb-20">
+              <div class="item-detailed-img">
+                <img src="{{portfolio.sm_img}}" alt="{{portfolio.title}}"/>
+                <img src="{{portfolio.big_img}}" alt="{{portfolio.title}}"/></div>
+              <a href="{{portfolio.big_img}}" class="hover-icon-first lightbox" data-tip="Enlarge image"><i class="jam jam-qr-code"></i></a>
+              <a href="{{portfolio.url}}" class="hover-icon-second" data-tip="See details"><i class="jam jam-link"></i></a>
+            </figure>
+            <div class="item-content">
+              <h2 class="post-title mb-10"><a href="{{portfolio.url}}">{{portfolio.title}}</a></h2>
+              <div class="meta mb-0">{{portfolio.sub_title}}</div>
+              <div
+                <p><a href="{{portfolio.resource_url}}">{{portfolio.resource}}</a></p>
+              </div>
+            </div>
+            <!-- /.item-content -->
+          </div>
+          {% endfor %}
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.tiles -->
+    </div>
+    <!-- /.grid -->
+  </div>
+  <!-- /.container -->
+</div>
