@@ -1,5 +1,5 @@
 # About
-Welcome! Data Umbrella is building a new website. We are slowly transferring content from our current website which is hosted using Google Sites (https://events.dataumbrella.org/) to this website-in-progress (https://dev.dataumbrella.org/).
+Welcome! Data Umbrella is building a new website. We are slowly transferring content from our current website which is hosted using Google Sites (https://www.dataumbrella.org/) to this website-in-progress (https://www.dataumbrella.org/).
 
 ## Skills 
 A background in any of these skills will enable you to contribute:  
@@ -22,7 +22,7 @@ If you would like to claim an issue, put a note on the issue "I am working on th
 ---
 
 # Building the Website Locally
-Instructions to build and test the [dev.dataumbrella.org](https://dev.dataumbrella.org/) site locally.
+Instructions to build and test the [www.dataumbrella.org](https://www.dataumbrella.org/) site locally.
 
 ## Installing Ruby & Jekyll
 If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.

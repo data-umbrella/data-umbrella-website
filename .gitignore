@@ -12,5 +12,5 @@ _site
 vendor/
 
 # Ignore folders with images that are not being used
-snowlake/assets/images/concept
-snowlake/assets/images/blob
+snowlake-v1.2/assets/images/concept/
+snowlake-v1.2/assets/images/blob/

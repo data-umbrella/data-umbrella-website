@@ -26,36 +26,6 @@ main_menu:
       - text: "Press"
         url: "/about/press"
 
-  # - text: "Portfolio"
-  #   url: "/portfolios/"
-  #   submenu:
-  #     - text: "Portfolio 01"
-  #       url: "/portfolios/index"
-
-  #     - text: "Portfolio 02"
-  #       url: "/portfolios/index-2"
-
-  #     - text: "Portfolio 03"
-  #       url: "/portfolios/index-3"
-
-  #     - text: "Portfolio 04"
-  #       url: "/portfolios/index-4"
-
-  #     - text: "Portfolio 05"
-  #       url: "/portfolios/index-5"
-
-  #     - text: "Portfolio 06"
-  #       url: "/portfolios/index-6"
-
-  #     - text: "Portfolio 07"
-  #       url: "/portfolios/index-7"    
- 
-  #     - text: "Portfolio 08"
-  #       url: "/portfolios/index-8"
- 
-  #     - text: "Portfolio 08b"
-  #       url: "/portfolios/index-8b" 
-
   - text: "Open Source"
     url: "/open-source/sprint_reports"
     submenu:
@@ -65,6 +35,8 @@ main_menu:
         url: "/open-source/sprint_reports"
       - text: "Contributing to scikit-learn"
         url: "/open-source/contributing-to-scikit-learn"
+      - text: "Contributing to PyMC"
+        url: "/open-source/contributing-to-pymc"
       - text: "Contributing to Core Python"
         url: "/open-source/contributing-to-cpython"
         
@@ -84,7 +56,7 @@ main_menu:
       - text: "Resources"
         url: "/blogs/index-2"
       - text: "Accessibility"
-        url: "https://dev.dataumbrella.org/category/accessibility/"
+        url: "https://www.dataumbrella.org/category/accessibility/"
       # - text: "Blog 02"
       #   url: "/blogs/index-2"
 
