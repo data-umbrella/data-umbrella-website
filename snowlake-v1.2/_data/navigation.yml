@@ -50,15 +50,24 @@ main_menu:
       - text: "Volunteer"
         url: "/get-involved/volunteer"
 
+  - text: "[Blog]"
+    url: "https://blog.dataumbrella.org/"
+
+  - text: "[Events Board]"
+    url: "https://events.dataumbrella.org/"
+ 
   - text: "Resources"
-    url: "/blogs/index-2"
-    submenu:
+    url: "https://resources.dataumbrella.org/"
+  
+#  - text: "Resources"
+#    url: "/blogs/index-2"
+#    submenu:
       # - text: "Blog"
       #   url: "/blogs/index"
-      - text: "Resources"
-        url: "/blogs/index-2"
-      - text: "Accessibility"
-        url: "https://www.dataumbrella.org/category/accessibility/"
+#      - text: "Resources"
+#        url: "/blogs/index-2"
+#      - text: "Accessibility"
+#        url: "https://www.dataumbrella.org/category/accessibility/"
       # - text: "Blog 02"
       #   url: "/blogs/index-2"
 
@@ -73,13 +82,13 @@ main_menu:
 
   - text: "[Blog]"
     url: "https://blog.dataumbrella.org/"
-    # submenu:
-    #   - text: "Blog"
-    #     url:  "https://blog.dataumbrella.org/"
 
   - text: "[Events Board]"
     url: "https://events.dataumbrella.org/"
  
+  - text: "Resources"
+    url: "https://resources.dataumbrella.org/"
+
   #     - text: "Event Board"
   #       url:  "https://events.dataumbrella.org/"
 
