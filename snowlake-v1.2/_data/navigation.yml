@@ -46,7 +46,7 @@ main_menu:
     url: "/get-involved/contribution"
     submenu:
       - text: "Contribute to Data Umbrella"
-        url: "/get-involved/contribution"
+        url: "https://www.every.org/data-umbrella"
       - text: "Volunteer"
         url: "/get-involved/volunteer"
 
