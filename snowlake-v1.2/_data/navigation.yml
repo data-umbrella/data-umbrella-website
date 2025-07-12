@@ -53,8 +53,8 @@ main_menu:
   - text: "[Blog]"
     url: "https://blog.dataumbrella.org/"
 
-  - text: "[Events Board]"
-    url: "https://events.dataumbrella.org/"
+  - text: "[GitHub Projects]"
+    url: "https://github.com/data-umbrella"
  
   - text: "[Resources]"
     url: "https://resources.dataumbrella.org/"
